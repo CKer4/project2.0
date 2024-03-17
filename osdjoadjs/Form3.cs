@@ -17,9 +17,8 @@ namespace osdjoadjs
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
 
-        }
+
+        
     }
 }
