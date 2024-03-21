@@ -83,6 +83,16 @@ namespace osdjoadjs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Character_3 {
+            get {
+                object obj = ResourceManager.GetObject("Character 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Character_3_1 {
             get {
                 object obj = ResourceManager.GetObject("Character 3.1", resourceCulture);
@@ -93,9 +103,29 @@ namespace osdjoadjs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Character_4 {
+            get {
+                object obj = ResourceManager.GetObject("Character 4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Character_4_1 {
             get {
                 object obj = ResourceManager.GetObject("Character 4.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Character_5 {
+            get {
+                object obj = ResourceManager.GetObject("Character 5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +146,66 @@ namespace osdjoadjs.Properties {
         internal static System.Drawing.Bitmap Character_6_1 {
             get {
                 object obj = ResourceManager.GetObject("Character 6.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jump {
+            get {
+                object obj = ResourceManager.GetObject("Jump", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Move_Back {
+            get {
+                object obj = ResourceManager.GetObject("Move Back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Roll_the_dice {
+            get {
+                object obj = ResourceManager.GetObject("Roll the dice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Roll_the_dice1 {
+            get {
+                object obj = ResourceManager.GetObject("Roll the dice1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Shield {
+            get {
+                object obj = ResourceManager.GetObject("Shield", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Skip_a_turn {
+            get {
+                object obj = ResourceManager.GetObject("Skip a turn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +276,36 @@ namespace osdjoadjs.Properties {
         internal static System.Drawing.Bitmap snakeandladder_bckgrd_2_copy {
             get {
                 object obj = ResourceManager.GetObject("snakeandladder.bckgrd.2.copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Template_3 {
+            get {
+                object obj = ResourceManager.GetObject("Template 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Template_31 {
+            get {
+                object obj = ResourceManager.GetObject("Template 31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wp9142232_snake_and_ladder_wallpapers {
+            get {
+                object obj = ResourceManager.GetObject("wp9142232-snake-and-ladder-wallpapers", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

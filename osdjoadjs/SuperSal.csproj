@@ -58,11 +58,13 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="..\..\..\..\OneDrive - Canterbury Christ Church University\first year\Tina\Term 2\group work\Form3.cs">
       <SubType>Form</SubType>
+      <Link>Form3.cs</Link>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
+    <Compile Include="..\..\..\..\OneDrive - Canterbury Christ Church University\first year\Tina\Term 2\group work\Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
+      <Link>Form3.Designer.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +74,9 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
+    <EmbeddedResource Include="..\..\..\..\OneDrive - Canterbury Christ Church University\first year\Tina\Term 2\group work\Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+      <Link>Form3.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -136,6 +139,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Snake and ladder.last.page.background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Template 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Template 31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp9142232-snake-and-ladder-wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roll the dice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roll the dice1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jump.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Move Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shield.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skip a turn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
