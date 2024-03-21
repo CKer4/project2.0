@@ -83,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -96,6 +97,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snakeandladder.bckgrd.2.copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snakeandladder.bckgrd.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snake and ladder.welcome page bckgrd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 6.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 5.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 4.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 3.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character 2.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake and ladder.last.page.background.copy.3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake and ladder.last.page.background.copy.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake and ladder.last.page.background.copy.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake and ladder.last.page.background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

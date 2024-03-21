@@ -117,4 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RulesLabel.Text" xml:space="preserve">
+    <value>Rules and Instructions:
+1. This is a windows form Snake and Ladders game.
+2. Two players take turns rolling the dice and moves their characters forward
+   by the number that appears on the top of the dice.
+3. If a player lands on a square with the base of a ladder,
+   then the player climbs up the ladder.
+4. If a player lands on the square in which there is a mouth of a snake,
+   then the player must slide down the snake.
+5. Players take the turn clockwise and the game terminates until one
+   player reaches the final square and is then pronounced the winner.
+6. Each player is given one default shield to protect them from the snake.
+7. Players gain another shield if they land on 50.
+8. If a player lands on 35, he jumps a number of levels according to the dice number.
+9. If a player lands on 44, he goes back one step.
+10. If a player lands on 94 his turn is skipped and the other player plays twice.</value>
+  </data>
 </root>
