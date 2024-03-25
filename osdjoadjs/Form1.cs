@@ -17,9 +17,18 @@ namespace osdjoadjs
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       
+
+        private void Btnstart_Click(object sender, EventArgs e)
         {
-            
+            Form3 gamewindow = new Form3();
+
+            gamewindow.Show();
+        }
+
+        private void Btnsave_Click(object sender, EventArgs e)
+        {
+            string userInput = Nametxtbox.Text;
         }
     }
 }

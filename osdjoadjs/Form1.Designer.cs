@@ -119,6 +119,7 @@
             this.Btnsave.TabIndex = 10;
             this.Btnsave.Text = "SAVE";
             this.Btnsave.UseVisualStyleBackColor = false;
+            this.Btnsave.Click += new System.EventHandler(this.Btnsave_Click);
             // 
             // Btnstart
             // 
@@ -131,6 +132,7 @@
             this.Btnstart.TabIndex = 11;
             this.Btnstart.Text = "START";
             this.Btnstart.UseVisualStyleBackColor = false;
+            this.Btnstart.Click += new System.EventHandler(this.Btnstart_Click);
             // 
             // Characterpic1
             // 
