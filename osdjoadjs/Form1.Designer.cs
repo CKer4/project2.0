@@ -34,11 +34,12 @@
             this.Ruleslabel = new System.Windows.Forms.Label();
             this.Namelabel = new System.Windows.Forms.Label();
             this.Characterlabel = new System.Windows.Forms.Label();
-            this.Nametxtbox = new System.Windows.Forms.TextBox();
+            this.Nametxtbox1 = new System.Windows.Forms.TextBox();
             this.Btnsave = new System.Windows.Forms.Button();
             this.Btnstart = new System.Windows.Forms.Button();
             this.Characterpic1 = new System.Windows.Forms.PictureBox();
             this.Characterpic2 = new System.Windows.Forms.PictureBox();
+            this.Nametxtbox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Characterpic1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Characterpic2)).BeginInit();
             this.SuspendLayout();
@@ -93,26 +94,26 @@
             this.Characterlabel.AutoSize = true;
             this.Characterlabel.BackColor = System.Drawing.Color.Transparent;
             this.Characterlabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Characterlabel.Location = new System.Drawing.Point(1014, 242);
+            this.Characterlabel.Location = new System.Drawing.Point(1014, 298);
             this.Characterlabel.Name = "Characterlabel";
             this.Characterlabel.Size = new System.Drawing.Size(262, 28);
             this.Characterlabel.TabIndex = 4;
             this.Characterlabel.Text = "Please choose a character:";
             // 
-            // Nametxtbox
+            // Nametxtbox1
             // 
-            this.Nametxtbox.Location = new System.Drawing.Point(1016, 197);
-            this.Nametxtbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Nametxtbox.Multiline = true;
-            this.Nametxtbox.Name = "Nametxtbox";
-            this.Nametxtbox.Size = new System.Drawing.Size(235, 32);
-            this.Nametxtbox.TabIndex = 5;
+            this.Nametxtbox1.Location = new System.Drawing.Point(1016, 197);
+            this.Nametxtbox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Nametxtbox1.Multiline = true;
+            this.Nametxtbox1.Name = "Nametxtbox1";
+            this.Nametxtbox1.Size = new System.Drawing.Size(235, 32);
+            this.Nametxtbox1.TabIndex = 5;
             // 
             // Btnsave
             // 
             this.Btnsave.BackColor = System.Drawing.Color.Lime;
             this.Btnsave.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnsave.Location = new System.Drawing.Point(1098, 440);
+            this.Btnsave.Location = new System.Drawing.Point(1098, 477);
             this.Btnsave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btnsave.Name = "Btnsave";
             this.Btnsave.Size = new System.Drawing.Size(84, 43);
@@ -125,7 +126,7 @@
             // 
             this.Btnstart.BackColor = System.Drawing.Color.Cyan;
             this.Btnstart.Font = new System.Drawing.Font("Snap ITC", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnstart.Location = new System.Drawing.Point(1041, 547);
+            this.Btnstart.Location = new System.Drawing.Point(1030, 558);
             this.Btnstart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btnstart.Name = "Btnstart";
             this.Btnstart.Size = new System.Drawing.Size(224, 68);
@@ -137,7 +138,7 @@
             // Characterpic1
             // 
             this.Characterpic1.Image = global::osdjoadjs.Properties.Resources.Character_4;
-            this.Characterpic1.Location = new System.Drawing.Point(1019, 286);
+            this.Characterpic1.Location = new System.Drawing.Point(1019, 348);
             this.Characterpic1.Margin = new System.Windows.Forms.Padding(4);
             this.Characterpic1.Name = "Characterpic1";
             this.Characterpic1.Size = new System.Drawing.Size(100, 123);
@@ -148,13 +149,22 @@
             // Characterpic2
             // 
             this.Characterpic2.Image = global::osdjoadjs.Properties.Resources.Character_3;
-            this.Characterpic2.Location = new System.Drawing.Point(1154, 286);
+            this.Characterpic2.Location = new System.Drawing.Point(1151, 348);
             this.Characterpic2.Margin = new System.Windows.Forms.Padding(4);
             this.Characterpic2.Name = "Characterpic2";
             this.Characterpic2.Size = new System.Drawing.Size(100, 123);
             this.Characterpic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Characterpic2.TabIndex = 13;
             this.Characterpic2.TabStop = false;
+            // 
+            // Nametxtbox2
+            // 
+            this.Nametxtbox2.Location = new System.Drawing.Point(1016, 244);
+            this.Nametxtbox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Nametxtbox2.Multiline = true;
+            this.Nametxtbox2.Name = "Nametxtbox2";
+            this.Nametxtbox2.Size = new System.Drawing.Size(235, 32);
+            this.Nametxtbox2.TabIndex = 14;
             // 
             // WelcomeScreen
             // 
@@ -163,11 +173,12 @@
             this.BackgroundImage = global::osdjoadjs.Properties.Resources.snakeandladder_bckgrd_2_copy;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1406, 686);
+            this.Controls.Add(this.Nametxtbox2);
             this.Controls.Add(this.Characterpic2);
             this.Controls.Add(this.Characterpic1);
             this.Controls.Add(this.Btnstart);
             this.Controls.Add(this.Btnsave);
-            this.Controls.Add(this.Nametxtbox);
+            this.Controls.Add(this.Nametxtbox1);
             this.Controls.Add(this.Characterlabel);
             this.Controls.Add(this.Namelabel);
             this.Controls.Add(this.Ruleslabel);
@@ -190,11 +201,12 @@
         private System.Windows.Forms.Label Ruleslabel;
         private System.Windows.Forms.Label Namelabel;
         private System.Windows.Forms.Label Characterlabel;
-        private System.Windows.Forms.TextBox Nametxtbox;
+        private System.Windows.Forms.TextBox Nametxtbox1;
         private System.Windows.Forms.Button Btnsave;
         private System.Windows.Forms.Button Btnstart;
         private System.Windows.Forms.PictureBox Characterpic1;
         private System.Windows.Forms.PictureBox Characterpic2;
+        private System.Windows.Forms.TextBox Nametxtbox2;
     }
 }
 
