@@ -28,42 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.CongratulationLabel = new System.Windows.Forms.Label();
-            this.WinnerLabel = new System.Windows.Forms.Label();
+            this.Congratslabel = new System.Windows.Forms.Label();
+            this.Winnerlabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // CongratulationLabel
+            // Congratslabel
             // 
-            this.CongratulationLabel.AutoSize = true;
-            this.CongratulationLabel.BackColor = System.Drawing.Color.Transparent;
-            this.CongratulationLabel.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CongratulationLabel.ForeColor = System.Drawing.Color.DarkRed;
-            this.CongratulationLabel.Location = new System.Drawing.Point(104, 19);
-            this.CongratulationLabel.Name = "CongratulationLabel";
-            this.CongratulationLabel.Size = new System.Drawing.Size(585, 63);
-            this.CongratulationLabel.TabIndex = 0;
-            this.CongratulationLabel.Text = "CONGRATULATION";
+            this.Congratslabel.AutoSize = true;
+            this.Congratslabel.BackColor = System.Drawing.Color.Transparent;
+            this.Congratslabel.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Congratslabel.ForeColor = System.Drawing.Color.DarkRed;
+            this.Congratslabel.Location = new System.Drawing.Point(286, 24);
+            this.Congratslabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Congratslabel.Name = "Congratslabel";
+            this.Congratslabel.Size = new System.Drawing.Size(728, 77);
+            this.Congratslabel.TabIndex = 0;
+            this.Congratslabel.Text = "CONGRATULATION";
             // 
-            // WinnerLabel
+            // Winnerlabel
             // 
-            this.WinnerLabel.AutoSize = true;
-            this.WinnerLabel.BackColor = System.Drawing.Color.Transparent;
-            this.WinnerLabel.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WinnerLabel.Location = new System.Drawing.Point(291, 82);
-            this.WinnerLabel.Name = "WinnerLabel";
-            this.WinnerLabel.Size = new System.Drawing.Size(185, 50);
-            this.WinnerLabel.TabIndex = 1;
-            this.WinnerLabel.Text = "PLAYER 1";
+            this.Winnerlabel.AutoSize = true;
+            this.Winnerlabel.BackColor = System.Drawing.Color.Transparent;
+            this.Winnerlabel.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Winnerlabel.Location = new System.Drawing.Point(532, 110);
+            this.Winnerlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Winnerlabel.Name = "Winnerlabel";
+            this.Winnerlabel.Size = new System.Drawing.Size(235, 62);
+            this.Winnerlabel.TabIndex = 1;
+            this.Winnerlabel.Text = "PLAYER 1";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::osdjoadjs.Properties.Resources.Snake_and_ladder_last_page_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.WinnerLabel);
-            this.Controls.Add(this.CongratulationLabel);
+            this.ClientSize = new System.Drawing.Size(1343, 679);
+            this.Controls.Add(this.Winnerlabel);
+            this.Controls.Add(this.Congratslabel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
             this.Text = "congratulationpage";
             this.ResumeLayout(false);
@@ -73,7 +76,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label CongratulationLabel;
-        private System.Windows.Forms.Label WinnerLabel;
+        private System.Windows.Forms.Label Congratslabel;
+        private System.Windows.Forms.Label Winnerlabel;
     }
 }
