@@ -1,4 +1,5 @@
-﻿using System;
+﻿using osdjoadjs.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,19 +34,41 @@ namespace osdjoadjs
         }
         private void Form3_Load(object sender, EventArgs e)
         {
-            pictureBox3.Image = Image.FromFile(@"C:\Users\Work\Source\Repos\project2.0\osdjoadjs\Resources\Roll the dice1.jpg");
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+
         }
         private void btnRoll_Click(object sender, EventArgs e)
         {
+            //Rolling dice code
+            //This randomly generates a number from 1 and 7
             int dice = 0;
             Random random = new Random();
-            dice = random.Next(1,6);
+            dice = random.Next(1, 7);
 
-            pictureBox3.Image = Image.FromFile(@"C:\Users\Work\Source\Repos\project2.0\osdjoadjs\Resources\"+dice+".png");
+            // This switch statement will add the associated image to dice picturebox but only if they match
+            switch (dice)
+            {
+                case 1:
+                    pictureBox3.Image = Resources._1;
+                    break;
+                case 2:
+                    pictureBox3.Image = Resources._2;
+                    break;
+                case 3:
+                    pictureBox3.Image = Resources._3;
+                    break;
+                case 4:
+                    pictureBox3.Image = Resources._4;
+                    break;
+                case 5:
+                    pictureBox3.Image = Resources._5;
+                    break;
+                case 6:
+                    pictureBox3.Image = Resources._6;
+                    break;
+            }
+            //This stretches the image to fit inside the picturebox
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
         }
-
 
     }
 }
