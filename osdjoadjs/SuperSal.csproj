@@ -194,5 +194,11 @@
   <ItemGroup>
     <None Include="Resources\6.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female characters.game.croped.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-clipart-3.SAL.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

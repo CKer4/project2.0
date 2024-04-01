@@ -50,11 +50,10 @@
             this.Welcomelabel.AutoSize = true;
             this.Welcomelabel.BackColor = System.Drawing.Color.Transparent;
             this.Welcomelabel.Font = new System.Drawing.Font("Viner Hand ITC", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Welcomelabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Welcomelabel.Location = new System.Drawing.Point(448, -6);
-            this.Welcomelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Welcomelabel.ForeColor = System.Drawing.Color.Indigo;
+            this.Welcomelabel.Location = new System.Drawing.Point(597, -7);
             this.Welcomelabel.Name = "Welcomelabel";
-            this.Welcomelabel.Size = new System.Drawing.Size(251, 61);
+            this.Welcomelabel.Size = new System.Drawing.Size(306, 76);
             this.Welcomelabel.TabIndex = 0;
             this.Welcomelabel.Text = "Welcome  To";
             // 
@@ -63,10 +62,10 @@
             this.Gamenamelabel.AutoSize = true;
             this.Gamenamelabel.BackColor = System.Drawing.Color.Transparent;
             this.Gamenamelabel.Font = new System.Drawing.Font("Viner Hand ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gamenamelabel.Location = new System.Drawing.Point(446, 43);
-            this.Gamenamelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Gamenamelabel.ForeColor = System.Drawing.Color.Indigo;
+            this.Gamenamelabel.Location = new System.Drawing.Point(595, 53);
             this.Gamenamelabel.Name = "Gamenamelabel";
-            this.Gamenamelabel.Size = new System.Drawing.Size(267, 78);
+            this.Gamenamelabel.Size = new System.Drawing.Size(333, 97);
             this.Gamenamelabel.TabIndex = 1;
             this.Gamenamelabel.Text = "Super Sal";
             // 
@@ -75,10 +74,10 @@
             this.Ruleslabel.AutoSize = true;
             this.Ruleslabel.BackColor = System.Drawing.Color.Transparent;
             this.Ruleslabel.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ruleslabel.Location = new System.Drawing.Point(57, 122);
-            this.Ruleslabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Ruleslabel.ForeColor = System.Drawing.Color.Indigo;
+            this.Ruleslabel.Location = new System.Drawing.Point(76, 150);
             this.Ruleslabel.Name = "Ruleslabel";
-            this.Ruleslabel.Size = new System.Drawing.Size(697, 400);
+            this.Ruleslabel.Size = new System.Drawing.Size(842, 496);
             this.Ruleslabel.TabIndex = 2;
             this.Ruleslabel.Text = resources.GetString("Ruleslabel.Text");
             // 
@@ -87,20 +86,19 @@
             this.Namelabel.AutoSize = true;
             this.Namelabel.BackColor = System.Drawing.Color.Transparent;
             this.Namelabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Namelabel.Location = new System.Drawing.Point(760, 136);
-            this.Namelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Namelabel.Location = new System.Drawing.Point(1013, 167);
             this.Namelabel.Name = "Namelabel";
-            this.Namelabel.Size = new System.Drawing.Size(200, 21);
+            this.Namelabel.Size = new System.Drawing.Size(249, 28);
             this.Namelabel.TabIndex = 3;
             this.Namelabel.Text = "Please enter your names:";
             // 
             // Nametxtbox1
             // 
-            this.Nametxtbox1.Location = new System.Drawing.Point(854, 200);
-            this.Nametxtbox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Nametxtbox1.Location = new System.Drawing.Point(1139, 246);
+            this.Nametxtbox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Nametxtbox1.Multiline = true;
             this.Nametxtbox1.Name = "Nametxtbox1";
-            this.Nametxtbox1.Size = new System.Drawing.Size(116, 27);
+            this.Nametxtbox1.Size = new System.Drawing.Size(153, 32);
             this.Nametxtbox1.TabIndex = 5;
             this.Nametxtbox1.TextChanged += new System.EventHandler(this.Nametxtbox1_TextChanged);
             // 
@@ -108,10 +106,10 @@
             // 
             this.Btnsave.BackColor = System.Drawing.Color.Lime;
             this.Btnsave.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnsave.Location = new System.Drawing.Point(854, 428);
-            this.Btnsave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btnsave.Location = new System.Drawing.Point(1139, 527);
+            this.Btnsave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btnsave.Name = "Btnsave";
-            this.Btnsave.Size = new System.Drawing.Size(63, 35);
+            this.Btnsave.Size = new System.Drawing.Size(84, 43);
             this.Btnsave.TabIndex = 10;
             this.Btnsave.Text = "SAVE";
             this.Btnsave.UseVisualStyleBackColor = false;
@@ -121,10 +119,10 @@
             // 
             this.Btnstart.BackColor = System.Drawing.Color.Cyan;
             this.Btnstart.Font = new System.Drawing.Font("Snap ITC", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnstart.Location = new System.Drawing.Point(802, 467);
-            this.Btnstart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Btnstart.Location = new System.Drawing.Point(1069, 575);
+            this.Btnstart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btnstart.Name = "Btnstart";
-            this.Btnstart.Size = new System.Drawing.Size(168, 55);
+            this.Btnstart.Size = new System.Drawing.Size(224, 68);
             this.Btnstart.TabIndex = 11;
             this.Btnstart.Text = "START";
             this.Btnstart.UseVisualStyleBackColor = false;
@@ -133,39 +131,42 @@
             // Characterpic1
             // 
             this.Characterpic1.Image = global::osdjoadjs.Properties.Resources.Character_4;
-            this.Characterpic1.Location = new System.Drawing.Point(764, 171);
+            this.Characterpic1.Location = new System.Drawing.Point(1019, 210);
+            this.Characterpic1.Margin = new System.Windows.Forms.Padding(4);
             this.Characterpic1.Name = "Characterpic1";
-            this.Characterpic1.Size = new System.Drawing.Size(75, 100);
+            this.Characterpic1.Size = new System.Drawing.Size(100, 123);
             this.Characterpic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Characterpic1.TabIndex = 12;
             this.Characterpic1.TabStop = false;
             // 
             // Characterpic2
             // 
-            this.Characterpic2.Image = global::osdjoadjs.Properties.Resources.Character_3;
-            this.Characterpic2.Location = new System.Drawing.Point(764, 302);
+            this.Characterpic2.Image = global::osdjoadjs.Properties.Resources.doctor_clipart_3_SAL;
+            this.Characterpic2.Location = new System.Drawing.Point(1019, 372);
+            this.Characterpic2.Margin = new System.Windows.Forms.Padding(4);
             this.Characterpic2.Name = "Characterpic2";
-            this.Characterpic2.Size = new System.Drawing.Size(75, 100);
+            this.Characterpic2.Size = new System.Drawing.Size(100, 123);
             this.Characterpic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Characterpic2.TabIndex = 13;
             this.Characterpic2.TabStop = false;
             // 
             // Nametxtbox2
             // 
-            this.Nametxtbox2.Location = new System.Drawing.Point(855, 331);
-            this.Nametxtbox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Nametxtbox2.Location = new System.Drawing.Point(1140, 407);
+            this.Nametxtbox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Nametxtbox2.Multiline = true;
             this.Nametxtbox2.Name = "Nametxtbox2";
-            this.Nametxtbox2.Size = new System.Drawing.Size(115, 27);
+            this.Nametxtbox2.Size = new System.Drawing.Size(152, 32);
             this.Nametxtbox2.TabIndex = 14;
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(851, 171);
+            this.label1.Location = new System.Drawing.Point(1135, 210);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 27);
+            this.label1.Size = new System.Drawing.Size(97, 33);
             this.label1.TabIndex = 15;
             this.label1.Text = "Player 1:";
             // 
@@ -173,19 +174,20 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(850, 302);
+            this.label2.Location = new System.Drawing.Point(1133, 372);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 27);
+            this.label2.Size = new System.Drawing.Size(97, 33);
             this.label2.TabIndex = 16;
             this.label2.Text = "Player 2:";
             // 
             // WelcomeScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::osdjoadjs.Properties.Resources.snakeandladder_bckgrd_2_copy;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1054, 557);
+            this.ClientSize = new System.Drawing.Size(1405, 686);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Nametxtbox2);
@@ -198,6 +200,7 @@
             this.Controls.Add(this.Ruleslabel);
             this.Controls.Add(this.Gamenamelabel);
             this.Controls.Add(this.Welcomelabel);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "WelcomeScreen";
             this.Text = "welcomepage";
             ((System.ComponentModel.ISupportInitialize)(this.Characterpic1)).EndInit();

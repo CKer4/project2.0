@@ -213,6 +213,26 @@ namespace osdjoadjs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doctor_clipart_3_SAL {
+            get {
+                object obj = ResourceManager.GetObject("doctor-clipart-3.SAL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Female_characters_game_croped {
+            get {
+                object obj = ResourceManager.GetObject("Female characters.game.croped", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Jump {
             get {
                 object obj = ResourceManager.GetObject("Jump", resourceCulture);

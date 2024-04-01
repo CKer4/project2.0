@@ -121,97 +121,103 @@
   <data name="Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="snake and ladder.welcome page bckgrd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snake and ladder.welcome page bckgrd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wp9142232-snake-and-ladder-wallpapers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wp9142232-snake-and-ladder-wallpapers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Template 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Template 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 1.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Jump" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Jump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 2.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 3.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 3.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Roll the dice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Roll the dice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Skip a turn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Skip a turn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="snakeandladder.bckgrd.2.copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snakeandladder.bckgrd.2.copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Template 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Template 31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Snake and ladder.last.page.background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Snake and ladder.last.page.background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 4.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 4.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="snakeandladder.bckgrd.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snakeandladder.bckgrd.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 5.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 5.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Second board" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Second board.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 6.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 6.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Snake and ladder.last.page.background.copy.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Snake and ladder.last.page.background.copy.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Character 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Character 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Roll the dice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Roll the dice1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Snake and ladder.last.page.background.copy.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Snake and ladder.last.page.background.copy.3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Snake and ladder.last.page.background.copy.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Snake and ladder.last.page.background.copy.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Move Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Move Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Jump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 3.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 3.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roll the dice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Roll the dice1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Template 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Template 31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snake and ladder.welcome page bckgrd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snake and ladder.welcome page bckgrd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake and ladder.last.page.background.copy.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake and ladder.last.page.background.copy.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake and ladder.last.page.background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake and ladder.last.page.background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake and ladder.last.page.background.copy.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake and ladder.last.page.background.copy.3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skip a turn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Skip a turn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 1.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 4.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 4.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wp9142232-snake-and-ladder-wallpapers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wp9142232-snake-and-ladder-wallpapers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snakeandladder.bckgrd.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snakeandladder.bckgrd.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roll the dice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Roll the dice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 2.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Template 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Template 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snakeandladder.bckgrd.2.copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snakeandladder.bckgrd.2.copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Female characters.game.croped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Female characters.game.croped.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Second board" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Second board.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 5.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 5.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake and ladder.last.page.background.copy.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake and ladder.last.page.background.copy.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Move Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Move Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Character 6.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character 6.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctor-clipart-3.SAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doctor-clipart-3.SAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
