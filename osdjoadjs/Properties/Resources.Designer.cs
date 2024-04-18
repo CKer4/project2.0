@@ -393,6 +393,16 @@ namespace osdjoadjs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Third_Board_design {
+            get {
+                object obj = ResourceManager.GetObject("Third Board design", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wp9142232_snake_and_ladder_wallpapers {
             get {
                 object obj = ResourceManager.GetObject("wp9142232-snake-and-ladder-wallpapers", resourceCulture);

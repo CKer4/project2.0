@@ -201,5 +201,8 @@
   <ItemGroup>
     <None Include="Resources\doctor-clipart-3.SAL.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Third Board design.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -34,12 +34,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnRoll = new System.Windows.Forms.Button();
-            this.btnOptionalShield = new System.Windows.Forms.Button();
             this.btnFixedShield = new System.Windows.Forms.Button();
-            this.btnRageQuit = new System.Windows.Forms.Button();
             this.Restartbtn = new System.Windows.Forms.Button();
             this.Exitbtn = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.lbLeaderBoard = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -54,9 +51,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -66,9 +60,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -130,38 +121,16 @@
             this.btnRoll.UseVisualStyleBackColor = true;
             this.btnRoll.Click += new System.EventHandler(this.btnRoll_Click);
             // 
-            // btnOptionalShield
-            // 
-            this.btnOptionalShield.BackColor = System.Drawing.Color.Transparent;
-            this.btnOptionalShield.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOptionalShield.Location = new System.Drawing.Point(739, 483);
-            this.btnOptionalShield.Name = "btnOptionalShield";
-            this.btnOptionalShield.Size = new System.Drawing.Size(104, 43);
-            this.btnOptionalShield.TabIndex = 9;
-            this.btnOptionalShield.Text = "Optional Shield";
-            this.btnOptionalShield.UseVisualStyleBackColor = false;
-            // 
             // btnFixedShield
             // 
             this.btnFixedShield.BackColor = System.Drawing.Color.Transparent;
             this.btnFixedShield.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFixedShield.Location = new System.Drawing.Point(849, 483);
+            this.btnFixedShield.Location = new System.Drawing.Point(790, 483);
             this.btnFixedShield.Name = "btnFixedShield";
             this.btnFixedShield.Size = new System.Drawing.Size(104, 43);
             this.btnFixedShield.TabIndex = 9;
-            this.btnFixedShield.Text = "Fixed     Shield";
+            this.btnFixedShield.Text = "Shield";
             this.btnFixedShield.UseVisualStyleBackColor = false;
-            // 
-            // btnRageQuit
-            // 
-            this.btnRageQuit.BackColor = System.Drawing.Color.Transparent;
-            this.btnRageQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnRageQuit.Location = new System.Drawing.Point(739, 532);
-            this.btnRageQuit.Name = "btnRageQuit";
-            this.btnRageQuit.Size = new System.Drawing.Size(104, 43);
-            this.btnRageQuit.TabIndex = 9;
-            this.btnRageQuit.Text = "Rage Quit";
-            this.btnRageQuit.UseVisualStyleBackColor = false;
             // 
             // Restartbtn
             // 
@@ -178,22 +147,12 @@
             // 
             this.Exitbtn.BackColor = System.Drawing.Color.Transparent;
             this.Exitbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.Exitbtn.Location = new System.Drawing.Point(739, 581);
+            this.Exitbtn.Location = new System.Drawing.Point(729, 532);
             this.Exitbtn.Name = "Exitbtn";
             this.Exitbtn.Size = new System.Drawing.Size(104, 43);
             this.Exitbtn.TabIndex = 9;
             this.Exitbtn.Text = "Exit";
             this.Exitbtn.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(849, 581);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(104, 43);
-            this.button6.TabIndex = 9;
-            this.button6.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -260,6 +219,7 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(703, 686);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 65);
@@ -273,7 +233,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 65);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Return to previous position";
+            this.label4.Text = "Go back one stop";
             // 
             // label5
             // 
@@ -313,11 +273,8 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::osdjoadjs.Properties.Resources.Second_board;
+            this.panel1.BackgroundImage = global::osdjoadjs.Properties.Resources.Third_Board_design;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.pictureBox11);
-            this.panel1.Controls.Add(this.pictureBox10);
-            this.panel1.Controls.Add(this.pictureBox9);
             this.panel1.Controls.Add(this.pictureBox8);
             this.panel1.Location = new System.Drawing.Point(12, 16);
             this.panel1.Name = "panel1";
@@ -335,45 +292,6 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 6;
             this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox9.Image = global::osdjoadjs.Properties.Resources.Character_4;
-            this.pictureBox9.Location = new System.Drawing.Point(615, 684);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(32, 38);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 6;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Visible = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox10.Image = global::osdjoadjs.Properties.Resources.Character_4;
-            this.pictureBox10.Location = new System.Drawing.Point(615, 612);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(32, 38);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 6;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Visible = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox11.Image = global::osdjoadjs.Properties.Resources.Character_4;
-            this.pictureBox11.Location = new System.Drawing.Point(3, 538);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(32, 38);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 6;
-            this.pictureBox11.TabStop = false;
-            this.pictureBox11.Visible = false;
             // 
             // Form3
             // 
@@ -395,12 +313,9 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.lbLeaderBoard);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.Exitbtn);
             this.Controls.Add(this.Restartbtn);
-            this.Controls.Add(this.btnRageQuit);
             this.Controls.Add(this.btnFixedShield);
-            this.Controls.Add(this.btnOptionalShield);
             this.Controls.Add(this.btnRoll);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -408,7 +323,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Playername1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(1022, 785);
             this.MinimumSize = new System.Drawing.Size(1022, 785);
             this.Name = "Form3";
@@ -423,9 +338,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -439,12 +351,9 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnRoll;
-        private System.Windows.Forms.Button btnOptionalShield;
         private System.Windows.Forms.Button btnFixedShield;
-        private System.Windows.Forms.Button btnRageQuit;
         private System.Windows.Forms.Button Restartbtn;
         private System.Windows.Forms.Button Exitbtn;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbLeaderBoard;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -460,7 +369,5 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
     }
 }
