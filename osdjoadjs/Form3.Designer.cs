@@ -53,6 +53,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -60,35 +64,37 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(527, 283);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(395, 230);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 16);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 0;
             // 
             // Playername1
             // 
             this.Playername1.BackColor = System.Drawing.Color.Transparent;
             this.Playername1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Playername1.Location = new System.Drawing.Point(1161, 33);
-            this.Playername1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Playername1.Location = new System.Drawing.Point(871, 27);
             this.Playername1.Name = "Playername1";
-            this.Playername1.Size = new System.Drawing.Size(143, 34);
+            this.Playername1.Size = new System.Drawing.Size(107, 28);
             this.Playername1.TabIndex = 2;
             this.Playername1.Text = "PlayerTwo";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::osdjoadjs.Properties.Resources.doctor_clipart_3_SAL;
-            this.pictureBox2.Location = new System.Drawing.Point(1188, 71);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(891, 58);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 123);
+            this.pictureBox2.Size = new System.Drawing.Size(75, 100);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -96,10 +102,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::osdjoadjs.Properties.Resources.Character_4;
-            this.pictureBox1.Location = new System.Drawing.Point(989, 71);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(742, 58);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 123);
+            this.pictureBox1.Size = new System.Drawing.Size(75, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -107,10 +112,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::osdjoadjs.Properties.Resources.Roll_the_dice1;
-            this.pictureBox3.Location = new System.Drawing.Point(1053, 340);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(790, 276);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(163, 177);
+            this.pictureBox3.Size = new System.Drawing.Size(122, 144);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
@@ -118,10 +122,9 @@
             // btnRoll
             // 
             this.btnRoll.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRoll.Location = new System.Drawing.Point(1053, 524);
-            this.btnRoll.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRoll.Location = new System.Drawing.Point(790, 426);
             this.btnRoll.Name = "btnRoll";
-            this.btnRoll.Size = new System.Drawing.Size(163, 52);
+            this.btnRoll.Size = new System.Drawing.Size(122, 42);
             this.btnRoll.TabIndex = 8;
             this.btnRoll.Text = "Roll";
             this.btnRoll.UseVisualStyleBackColor = true;
@@ -131,10 +134,9 @@
             // 
             this.btnOptionalShield.BackColor = System.Drawing.Color.Transparent;
             this.btnOptionalShield.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOptionalShield.Location = new System.Drawing.Point(985, 594);
-            this.btnOptionalShield.Margin = new System.Windows.Forms.Padding(4);
+            this.btnOptionalShield.Location = new System.Drawing.Point(739, 483);
             this.btnOptionalShield.Name = "btnOptionalShield";
-            this.btnOptionalShield.Size = new System.Drawing.Size(139, 53);
+            this.btnOptionalShield.Size = new System.Drawing.Size(104, 43);
             this.btnOptionalShield.TabIndex = 9;
             this.btnOptionalShield.Text = "Optional Shield";
             this.btnOptionalShield.UseVisualStyleBackColor = false;
@@ -143,10 +145,9 @@
             // 
             this.btnFixedShield.BackColor = System.Drawing.Color.Transparent;
             this.btnFixedShield.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFixedShield.Location = new System.Drawing.Point(1132, 594);
-            this.btnFixedShield.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFixedShield.Location = new System.Drawing.Point(849, 483);
             this.btnFixedShield.Name = "btnFixedShield";
-            this.btnFixedShield.Size = new System.Drawing.Size(139, 53);
+            this.btnFixedShield.Size = new System.Drawing.Size(104, 43);
             this.btnFixedShield.TabIndex = 9;
             this.btnFixedShield.Text = "Fixed     Shield";
             this.btnFixedShield.UseVisualStyleBackColor = false;
@@ -155,10 +156,9 @@
             // 
             this.btnRageQuit.BackColor = System.Drawing.Color.Transparent;
             this.btnRageQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnRageQuit.Location = new System.Drawing.Point(985, 655);
-            this.btnRageQuit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRageQuit.Location = new System.Drawing.Point(739, 532);
             this.btnRageQuit.Name = "btnRageQuit";
-            this.btnRageQuit.Size = new System.Drawing.Size(139, 53);
+            this.btnRageQuit.Size = new System.Drawing.Size(104, 43);
             this.btnRageQuit.TabIndex = 9;
             this.btnRageQuit.Text = "Rage Quit";
             this.btnRageQuit.UseVisualStyleBackColor = false;
@@ -167,10 +167,9 @@
             // 
             this.Restartbtn.BackColor = System.Drawing.Color.Transparent;
             this.Restartbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Restartbtn.Location = new System.Drawing.Point(1132, 655);
-            this.Restartbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.Restartbtn.Location = new System.Drawing.Point(849, 532);
             this.Restartbtn.Name = "Restartbtn";
-            this.Restartbtn.Size = new System.Drawing.Size(139, 53);
+            this.Restartbtn.Size = new System.Drawing.Size(104, 43);
             this.Restartbtn.TabIndex = 9;
             this.Restartbtn.Text = "Restart";
             this.Restartbtn.UseVisualStyleBackColor = false;
@@ -179,10 +178,9 @@
             // 
             this.Exitbtn.BackColor = System.Drawing.Color.Transparent;
             this.Exitbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.Exitbtn.Location = new System.Drawing.Point(985, 715);
-            this.Exitbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.Exitbtn.Location = new System.Drawing.Point(739, 581);
             this.Exitbtn.Name = "Exitbtn";
-            this.Exitbtn.Size = new System.Drawing.Size(139, 53);
+            this.Exitbtn.Size = new System.Drawing.Size(104, 43);
             this.Exitbtn.TabIndex = 9;
             this.Exitbtn.Text = "Exit";
             this.Exitbtn.UseVisualStyleBackColor = false;
@@ -191,10 +189,9 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(1132, 715);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
+            this.button6.Location = new System.Drawing.Point(849, 581);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(139, 53);
+            this.button6.Size = new System.Drawing.Size(104, 43);
             this.button6.TabIndex = 9;
             this.button6.UseVisualStyleBackColor = false;
             // 
@@ -202,10 +199,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(967, 33);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(725, 27);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 34);
+            this.label2.Size = new System.Drawing.Size(107, 28);
             this.label2.TabIndex = 2;
             this.label2.Text = "PlayerOne";
             // 
@@ -213,10 +209,9 @@
             // 
             this.lbLeaderBoard.BackColor = System.Drawing.Color.Transparent;
             this.lbLeaderBoard.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLeaderBoard.Location = new System.Drawing.Point(1047, 209);
-            this.lbLeaderBoard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbLeaderBoard.Location = new System.Drawing.Point(785, 170);
             this.lbLeaderBoard.Name = "lbLeaderBoard";
-            this.lbLeaderBoard.Size = new System.Drawing.Size(188, 28);
+            this.lbLeaderBoard.Size = new System.Drawing.Size(141, 23);
             this.lbLeaderBoard.TabIndex = 11;
             this.lbLeaderBoard.Text = "Leaderboard";
             this.lbLeaderBoard.Click += new System.EventHandler(this.label3_Click_1);
@@ -225,10 +220,9 @@
             // 
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Image = global::osdjoadjs.Properties.Resources.Jump;
-            this.pictureBox4.Location = new System.Drawing.Point(937, 775);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Location = new System.Drawing.Point(703, 630);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(92, 65);
+            this.pictureBox4.Size = new System.Drawing.Size(69, 53);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 12;
             this.pictureBox4.TabStop = false;
@@ -236,10 +230,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::osdjoadjs.Properties.Resources.Move_Back;
-            this.pictureBox5.Location = new System.Drawing.Point(1035, 775);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox5.Location = new System.Drawing.Point(776, 630);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(92, 65);
+            this.pictureBox5.Size = new System.Drawing.Size(69, 53);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
@@ -247,10 +240,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::osdjoadjs.Properties.Resources.Shield;
-            this.pictureBox6.Location = new System.Drawing.Point(1132, 775);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox6.Location = new System.Drawing.Point(849, 630);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(92, 65);
+            this.pictureBox6.Size = new System.Drawing.Size(69, 53);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 14;
             this.pictureBox6.TabStop = false;
@@ -258,10 +250,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::osdjoadjs.Properties.Resources.Skip_a_turn;
-            this.pictureBox7.Location = new System.Drawing.Point(1232, 775);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox7.Location = new System.Drawing.Point(924, 630);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(92, 65);
+            this.pictureBox7.Size = new System.Drawing.Size(69, 53);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 15;
             this.pictureBox7.TabStop = false;
@@ -269,59 +260,53 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(937, 844);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(703, 686);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 80);
+            this.label3.Size = new System.Drawing.Size(69, 65);
             this.label3.TabIndex = 16;
             this.label3.Text = "Jump up according to dice number";
             // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(1036, 844);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(777, 686);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 80);
+            this.label4.Size = new System.Drawing.Size(69, 65);
             this.label4.TabIndex = 16;
             this.label4.Text = "Return to previous position";
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(1133, 846);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(850, 687);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 80);
+            this.label5.Size = new System.Drawing.Size(69, 65);
             this.label5.TabIndex = 16;
             this.label5.Text = "Shield (Protection from snake attack)";
             // 
             // label6
             // 
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(1233, 844);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(925, 686);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 80);
+            this.label6.Size = new System.Drawing.Size(69, 65);
             this.label6.TabIndex = 16;
             this.label6.Text = "Stays on Position and let another player roll";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1027, 255);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(770, 207);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 44);
+            this.button1.Size = new System.Drawing.Size(62, 36);
             this.button1.TabIndex = 17;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1152, 255);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(864, 207);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 44);
+            this.button2.Size = new System.Drawing.Size(62, 36);
             this.button2.TabIndex = 18;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -330,20 +315,74 @@
             // 
             this.panel1.BackgroundImage = global::osdjoadjs.Properties.Resources.Second_board;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(16, 20);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Controls.Add(this.pictureBox11);
+            this.panel1.Controls.Add(this.pictureBox10);
+            this.panel1.Controls.Add(this.pictureBox9);
+            this.panel1.Controls.Add(this.pictureBox8);
+            this.panel1.Location = new System.Drawing.Point(12, 16);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(913, 892);
+            this.panel1.Size = new System.Drawing.Size(685, 725);
             this.panel1.TabIndex = 19;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox8.Image = global::osdjoadjs.Properties.Resources.Character_4;
+            this.pictureBox8.Location = new System.Drawing.Point(3, 684);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(32, 38);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 6;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox9.Image = global::osdjoadjs.Properties.Resources.Character_4;
+            this.pictureBox9.Location = new System.Drawing.Point(615, 684);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(32, 38);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 6;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox10.Image = global::osdjoadjs.Properties.Resources.Character_4;
+            this.pictureBox10.Location = new System.Drawing.Point(615, 612);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(32, 38);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 6;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Visible = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox11.Image = global::osdjoadjs.Properties.Resources.Character_4;
+            this.pictureBox11.Location = new System.Drawing.Point(3, 538);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(32, 38);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 6;
+            this.pictureBox11.TabStop = false;
+            this.pictureBox11.Visible = false;
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::osdjoadjs.Properties.Resources.wp9142232_snake_and_ladder_wallpapers;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1341, 935);
+            this.ClientSize = new System.Drawing.Size(1006, 746);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -369,7 +408,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Playername1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximumSize = new System.Drawing.Size(1022, 785);
+            this.MinimumSize = new System.Drawing.Size(1022, 785);
             this.Name = "Form3";
             this.Text = "boardpage";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -380,6 +421,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -412,5 +458,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox11;
     }
 }

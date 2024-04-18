@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,9 @@ namespace osdjoadjs
 {
     public partial class Form3 : Form
     {
+        bool play1 = false;
+        int x = 3, y = 684, diceNum, p = 0;
+        int[] pos = new int[100];
         public Form3()
         {
             InitializeComponent();
@@ -34,40 +38,54 @@ namespace osdjoadjs
         }
         private void Form3_Load(object sender, EventArgs e)
         {
+            ladderinitialization();
+            snakebiteinitialization();
+            pictureBox8.Visible = false;
 
         }
         private void btnRoll_Click(object sender, EventArgs e)
         {
-            //Rolling dice code
-            //This randomly generates a number from 1 and 7
-            int dice = 0;
-            Random random = new Random();
-            dice = random.Next(1, 7);
-
-            // This switch statement will add the associated image to dice picturebox but only if they match
-            switch (dice)
+            if (play1 == true)
             {
-                case 1:
-                    pictureBox3.Image = Resources._1;
-                    break;
-                case 2:
-                    pictureBox3.Image = Resources._2;
-                    break;
-                case 3:
-                    pictureBox3.Image = Resources._3;
-                    break;
-                case 4:
-                    pictureBox3.Image = Resources._4;
-                    break;
-                case 5:
-                    pictureBox3.Image = Resources._5;
-                    break;
-                case 6:
-                    pictureBox3.Image = Resources._6;
-                    break;
+                rollingDiceClass.move(ref x, ref y, ref p, diceNum, ref pos, pictureBox8);
+                /*x += 68;
+                pictureBox8.Location = new Point(x, y);
+                */
             }
-            //This stretches the image to fit inside the picturebox
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            diceNum = rollingDiceClass.diceRoll(pictureBox3);
+            if (play1 == false)
+            {
+                pictureBox8.Visible = true;
+                pictureBox1.Visible = false;
+                play1 = true;
+                pictureBox8.Location = new Point(x, y);
+            }
+
+        }
+
+        private void snakebiteinitialization()
+        {
+            pos[29] = 9;
+            pos[38] = 15;
+            pos[47] = 5;
+            pos[53] = 33;
+            pos[62] = 37;
+            pos[86] = 54;
+            pos[92] = 70;
+            pos[97] = 25;
+        }
+
+        private void ladderinitialization()
+        {
+            pos[2] = 23;
+            pos[8] = 34;
+            pos[20] = 77;
+            pos[32] = 68;
+            pos[41] = 79;
+            pos[74] = 88;
+            pos[82] = 100;
+            pos[85] = 95;
         }
 
     }
