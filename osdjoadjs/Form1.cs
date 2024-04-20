@@ -13,6 +13,8 @@ namespace osdjoadjs
 {
     public partial class WelcomeScreen : Form
     {
+        string userName1 = null;
+        string userName2 = null;
         public WelcomeScreen()
         {
             InitializeComponent();
@@ -22,9 +24,26 @@ namespace osdjoadjs
 
         private void Btnstart_Click(object sender, EventArgs e)
         {
-            Form3 gamewindow = new Form3();
+            string userName1 = Nametxtbox1.Text.Trim();
+            string userName2 = Nametxtbox2.Text.Trim();
 
-            gamewindow.Show();
+            if (string.IsNullOrEmpty(userName1) || string.IsNullOrEmpty(userName2))
+            {
+                MessageBox.Show("Both player names must be entered to start the game.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                Form3 gamewindow = new Form3();
+                gamewindow.Show();
+                gamewindow.SetPlayerNames(userName1, userName2);
+
+            }
+        }
+
+        public void SetPlayerNames(string player1Name, string player2Name) 
+        {
+            Nametxtbox1.Text = player1Name;
+            Nametxtbox1.Text = player2Name;
         }
 
         private void Btnsave_Click(object sender, EventArgs e)

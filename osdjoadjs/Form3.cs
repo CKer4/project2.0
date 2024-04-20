@@ -14,9 +14,22 @@ namespace osdjoadjs
 {
     public partial class Form3 : Form
     {
-        bool play1 = false;
+        int currentPlayer = 1;
         int x = 3, y = 684, diceNum, p = 0;
-        int[] pos = new int[100];
+        int ax = 3, ay = 684, ap = 0;
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            currentPlayer = 1;
+            btnRoll.Enabled = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            currentPlayer = 2;
+            btnRoll.Enabled = true;
+        }
+
         public Form3()
         {
             InitializeComponent();
@@ -25,6 +38,36 @@ namespace osdjoadjs
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Exitbtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Restartbtn_Click_1(object sender, EventArgs e)
+        {
+            pictureBox8.Location = new Point(3, 684);
+            pictureBox10.Location = new Point(3, 684);
+
+            p = 0;
+            p++;
+            ap = 0;
+            ap++;
+
+            x = 3;
+            y = 684;
+            ax = 3;
+            y = 684;
+
+            diceNum = 0;
+
+            currentPlayer = 1;
+            button3.BackColor = System.Drawing.Color.Green;
+            button4.BackColor = DefaultBackColor;
+            btnRoll.Enabled = false;
+            button3.Enabled = true;
+            button4.Enabled = false;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -38,55 +81,75 @@ namespace osdjoadjs
         }
         private void Form3_Load(object sender, EventArgs e)
         {
-            ladderinitialization();
-            snakebiteinitialization();
+            button3.BackColor = System.Drawing.Color.Green;
+            btnRoll.Enabled = false;
+            button3.Enabled = true;
+            button4.Enabled = false;
             pictureBox8.Visible = false;
-
+            pictureBox10.Visible = false;
+            pictureBox8.Visible = true;
+            pictureBox8.Location = new Point(x, y);
+            p++;
+            pictureBox10.Visible = true;
+            pictureBox10.Location = new Point(x, y);
+            ap++;
         }
         private void btnRoll_Click(object sender, EventArgs e)
         {
-            if (play1 == true)
+            if (currentPlayer == 1)
             {
-                rollingDiceClass.move(ref x, ref y, ref p, diceNum, ref pos, pictureBox8);
-                /*x += 68;
-                pictureBox8.Location = new Point(x, y);
-                */
+                diceNum = rollingDiceClass.diceRoll(pictureBox3);
+
+                p = rollingDiceClass.move(ref x, ref y, p, diceNum, pictureBox8);
+
+
+                if (p == 100)
+                {
+                    Form2 gamewindow = new Form2();
+                    gamewindow.Show();
+                    btnRoll.Enabled = false;
+                }
+
+                p = rollingDiceClass.snake(ref x, ref y, p, pictureBox8);
+
+                p = rollingDiceClass.ladders(ref x, ref y, p, pictureBox8);
+
+                btnRoll.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = true;
+                button3.BackColor = DefaultBackColor;
+                button4.BackColor = System.Drawing.Color.Green;
+            }
+            else if (currentPlayer == 2)
+            {
+                diceNum = rollingDiceClass.diceRoll(pictureBox3);
+
+                ap = rollingDiceClass.move(ref ax, ref ay, ap, diceNum, pictureBox10);
+
+                if (ap == 100)
+                {
+                    Form2 gamewindow = new Form2();
+                    gamewindow.Show();
+                    btnRoll.Enabled = false;
+                }
+
+                ap = rollingDiceClass.snake(ref ax, ref ay, ap, pictureBox10);
+
+                ap = rollingDiceClass.ladders(ref ax, ref ay, ap, pictureBox10);
+
+                btnRoll.Enabled = false;
+                button3.Enabled = true;
+                button4.Enabled = false;
+                button4.BackColor = DefaultBackColor;
+                button3.BackColor = System.Drawing.Color.Green;
             }
 
-            diceNum = rollingDiceClass.diceRoll(pictureBox3);
-            if (play1 == false)
-            {
-                pictureBox8.Visible = true;
-                pictureBox1.Visible = false;
-                play1 = true;
-                pictureBox8.Location = new Point(x, y);
-            }
-
         }
 
-        private void snakebiteinitialization()
+        public void SetPlayerNames(string player1Name, string player2Name)
         {
-            pos[29] = 9;
-            pos[38] = 15;
-            pos[47] = 5;
-            pos[53] = 33;
-            pos[62] = 37;
-            pos[86] = 54;
-            pos[92] = 70;
-            pos[97] = 25;
+            label2.Text = player1Name;
+            Playername1.Text = player2Name;
         }
-
-        private void ladderinitialization()
-        {
-            pos[2] = 23;
-            pos[8] = 34;
-            pos[20] = 77;
-            pos[32] = 68;
-            pos[41] = 79;
-            pos[74] = 88;
-            pos[82] = 100;
-            pos[85] = 95;
-        }
-
     }
 }

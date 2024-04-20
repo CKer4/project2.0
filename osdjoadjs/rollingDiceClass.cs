@@ -47,74 +47,194 @@ namespace osdjoadjs
             return dice;
         }
 
-        public static void move(ref int x, ref int y, ref int p, int dice, ref int[] pos, PictureBox px)
+        public static int move(ref int x, ref int y, int p, int dice,PictureBox px)
         {
-            if ( p == 9 ) 
+            if (dice + p > 100)
             {
-                x = 615;
-                y = 612;
-            }
-            else if (p == 19)
-            {
-                x = 3;
-                y = 538;
-            }
-            else if (p == 29)
-            {
-                x = 615;
-                y = 466;
-            }
-            else if (p == 39)
-            {
-                x = 3;
-                y = 394;
-            }
-            else if (p == 49)
-            {
-                x = 615;
-                y = 322;
-            }
-            else if (p == 59)
-            {
-                x = 3;
-                y = 250;
-            }
-            else if (p == 69)
-            {
-                x = 615;
-                y = 178;
-            }
-            else if (p == 79)
-            {
-                x = 3;
-                y = 106;
-            }
-            else if (p == 89)
-            {
-                x = 615;
-                y = 34;
-            }
-
-            else if (p >= 10 && p < 19 || p >= 30 && p < 39 || p >= 50 && p < 59|| p >= 70 && p < 79 || p >= 90)
-            {
-                x -= 68;
+                MessageBox.Show("Can't move");
             }
             else
             {
-                x += 68;
-            }
+                for (int i = 0; i < dice; i++)
+                {
 
-            if (p == 19)
+                    if (p == 10)
+                    {
+                        x = 615;
+                        y = 612;
+                    }
+                    else if (p == 20)
+                    {
+                        x = 3;
+                        y = 538;
+                    }
+                    else if (p == 30)
+                    {
+                        x = 615;
+                        y = 466;
+                    }
+                    else if (p == 40)
+                    {
+                        x = 3;
+                        y = 394;
+                    }
+                    else if (p == 50)
+                    {
+                        x = 615;
+                        y = 322;
+                    }
+                    else if (p == 60)
+                    {
+                        x = 3;
+                        y = 250;
+                    }
+                    else if (p == 70)
+                    {
+                        x = 615;
+                        y = 178;
+                    }
+                    else if (p == 80)
+                    {
+                        x = 3;
+                        y = 106;
+                    }
+                    else if (p == 90)
+                    {
+                        x = 615;
+                        y = 34;
+                    }
+                    else if (p >= 10 && p < 20 || p >= 30 && p < 40 || p >= 50 && p < 60 || p >= 70 && p < 80 || p >= 90)
+                    {
+                        x -= 68;
+                    }
+                    else
+                    {
+                        x += 68;
+                    }
+
+
+
+                    px.Location = new Point(x, y);
+                    p++;
+
+                }
+            }
+            return p;
+        }
+
+        public static int snake(ref int x, ref int y, int p,PictureBox px )
+        {
+            if (p==29)
             {
-                x = 3;
-                y = 538;
+                x = 547;
+                y = 684;
+                p = 9;
             }
-
-
+            else if (p==38)
+            {
+                x = 343;
+                y = 612;
+                p = 15;
+            }
+            else if (p== 47)
+            {
+                x = 247;
+                y = 684;
+                p = 5;
+            }
+            else if (p == 53)
+            {
+                x = 419;
+                y = 466;
+                p = 33;
+            }
+            else if (p == 62)
+            {
+                x = 207;
+                y = 466;
+                p = 37;
+            }
+            else if (p == 86)
+            {
+                x = 411;
+                y = 322;
+                p = 54;
+            }
+            else if (p == 92)
+            {
+                x = 615;
+                y = 250;
+                p = 70;
+            }
+            else if (p == 97)
+            {
+                x = 275;
+                y = 538;
+                p = 25;
+            }
 
             px.Location = new Point(x, y);
-            p++;
-            pos[p] = 1; 
+
+            return p;
         }
+
+        public static int ladders(ref int x, ref int y, int p, PictureBox px)
+        {
+            if (p == 2)
+            {
+                x = 139;
+                y = 538;
+                p = 23;
+                
+            }
+            else if (p == 8)
+            {
+                x = 411;
+                y = 466;
+                p = 34;
+            }
+            else if (p == 20)
+            {
+                x = 207;
+                y = 178;
+                p = 77;
+            }
+            else if (p == 32)
+            {
+                x = 479;
+                y = 250;
+                p = 68;
+            }
+            else if (p == 41)
+            {
+                x = 71;
+                y = 178;
+                p = 79;
+            }
+            else if (p == 74)
+            {
+                x = 479;
+                y = 106;
+                p = 88;
+            }
+            else if (p == 82)
+            {
+                x = 3;
+                y = 34;
+                p = 100;
+            }
+            else if (p == 85)
+            {
+                x = 343;
+                y = 34;
+                p = 95;
+            }
+            px.Location = new Point(x, y);
+
+            return p;
+        }
+
+
+
     }
 }
