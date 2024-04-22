@@ -102,6 +102,7 @@ namespace osdjoadjs
 
                 p = rollingDiceClass.move(ref x, ref y, p, diceNum, pictureBox8);
 
+                p = rollingDiceClass.ladders(ref x, ref y, p, pictureBox8);
 
                 if (p == 100)
                 {
@@ -112,7 +113,6 @@ namespace osdjoadjs
 
                 p = rollingDiceClass.snake(ref x, ref y, p, pictureBox8);
 
-                p = rollingDiceClass.ladders(ref x, ref y, p, pictureBox8);
 
                 btnRoll.Enabled = false;
                 button3.Enabled = false;
@@ -126,6 +126,8 @@ namespace osdjoadjs
 
                 ap = rollingDiceClass.move(ref ax, ref ay, ap, diceNum, pictureBox10);
 
+                ap = rollingDiceClass.ladders(ref ax, ref ay, ap, pictureBox10);
+
                 if (ap == 100)
                 {
                     Form2 gamewindow = new Form2();
@@ -135,7 +137,6 @@ namespace osdjoadjs
 
                 ap = rollingDiceClass.snake(ref ax, ref ay, ap, pictureBox10);
 
-                ap = rollingDiceClass.ladders(ref ax, ref ay, ap, pictureBox10);
 
                 btnRoll.Enabled = false;
                 button3.Enabled = true;

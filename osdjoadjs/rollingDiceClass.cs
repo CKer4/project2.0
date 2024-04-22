@@ -51,7 +51,7 @@ namespace osdjoadjs
         {
             if (dice + p > 100)
             {
-                MessageBox.Show("Can't move");
+                MessageBox.Show("Need to roll 1 to win");
             }
             else
             {
@@ -129,48 +129,56 @@ namespace osdjoadjs
                 x = 547;
                 y = 684;
                 p = 9;
+                MessageBox.Show("Went down the snake!");
             }
             else if (p==38)
             {
                 x = 343;
                 y = 612;
                 p = 15;
+                MessageBox.Show("Went down the snake!");
             }
             else if (p== 47)
             {
                 x = 247;
                 y = 684;
                 p = 5;
+                MessageBox.Show("Went down the snake!");
             }
             else if (p == 53)
             {
-                x = 419;
+                x = 479;
                 y = 466;
                 p = 33;
+                MessageBox.Show("Went down the snake!");
             }
             else if (p == 62)
             {
                 x = 207;
                 y = 466;
                 p = 37;
+                MessageBox.Show("Went down the snake!");
             }
             else if (p == 86)
             {
                 x = 411;
                 y = 322;
                 p = 54;
+                MessageBox.Show("Went down the snake!");
             }
             else if (p == 92)
             {
                 x = 615;
                 y = 250;
                 p = 70;
+                MessageBox.Show("Went down the snake!");
             }
             else if (p == 97)
             {
                 x = 275;
                 y = 538;
                 p = 25;
+                MessageBox.Show("Went down the snake!");
             }
 
             px.Location = new Point(x, y);
@@ -185,50 +193,59 @@ namespace osdjoadjs
                 x = 139;
                 y = 538;
                 p = 23;
-                
+                MessageBox.Show("Went up the ladder!");
+
             }
             else if (p == 8)
             {
                 x = 411;
                 y = 466;
                 p = 34;
+                MessageBox.Show("Went up the ladder!");
             }
             else if (p == 20)
             {
                 x = 207;
                 y = 178;
                 p = 77;
+                MessageBox.Show("Went up the ladder!");
             }
             else if (p == 32)
             {
                 x = 479;
                 y = 250;
                 p = 68;
+                MessageBox.Show("Went up the ladder!");
             }
             else if (p == 41)
             {
                 x = 71;
                 y = 178;
                 p = 79;
+                MessageBox.Show("Went up the ladder!");
             }
             else if (p == 74)
             {
                 x = 479;
                 y = 106;
                 p = 88;
+                MessageBox.Show("Went up the ladder!");
             }
             else if (p == 82)
             {
                 x = 3;
                 y = 34;
                 p = 100;
+                MessageBox.Show("Went up the ladder!");
             }
             else if (p == 85)
             {
                 x = 343;
                 y = 34;
                 p = 95;
+                MessageBox.Show("Went up the ladder!");
             }
+
             px.Location = new Point(x, y);
 
             return p;
