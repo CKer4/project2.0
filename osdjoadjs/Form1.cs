@@ -98,9 +98,6 @@ namespace osdjoadjs
             return null;
         }
 
-        private void Nametxtbox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
