@@ -79,7 +79,6 @@
             this.Ruleslabel.Size = new System.Drawing.Size(829, 465);
             this.Ruleslabel.TabIndex = 2;
             this.Ruleslabel.Text = resources.GetString("Ruleslabel.Text");
-            this.Ruleslabel.Click += new System.EventHandler(this.Ruleslabel_Click);
             // 
             // Namelabel
             // 
@@ -100,7 +99,6 @@
             this.Nametxtbox1.Name = "Nametxtbox1";
             this.Nametxtbox1.Size = new System.Drawing.Size(153, 32);
             this.Nametxtbox1.TabIndex = 5;
-            this.Nametxtbox1.TextChanged += new System.EventHandler(this.Nametxtbox1_TextChanged);
             // 
             // Btnstart
             // 
@@ -156,7 +154,6 @@
             this.label1.Size = new System.Drawing.Size(97, 33);
             this.label1.TabIndex = 15;
             this.label1.Text = "Player 1:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 

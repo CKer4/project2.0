@@ -58,7 +58,7 @@ namespace osdjoadjs
             x = 3;
             y = 684;
             ax = 3;
-            y = 684;
+            ay = 684;
 
             diceNum = 0;
 

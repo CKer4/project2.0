@@ -51,7 +51,7 @@ namespace osdjoadjs
         {
             if (dice + p > 100)
             {
-                MessageBox.Show("Need to roll 1 to win");
+                MessageBox.Show("Need to land exactly on 100 to win");
             }
             else
             {
@@ -140,7 +140,7 @@ namespace osdjoadjs
             }
             else if (p== 47)
             {
-                x = 247;
+                x = 275;
                 y = 684;
                 p = 5;
                 MessageBox.Show("Went down the snake!");
