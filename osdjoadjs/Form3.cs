@@ -15,8 +15,9 @@ namespace osdjoadjs
     public partial class Form3 : Form
     {
         int currentPlayer = 1;
-        int x = 3, y = 684, diceNum, p = 0;
+        int x = 3, y = 684, diceNum, p = 0, score, score2, counter;
         int ax = 3, ay = 684, ap = 0;
+        bool skipturn = false;
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -61,6 +62,7 @@ namespace osdjoadjs
             ay = 684;
 
             diceNum = 0;
+            counter = 0;
 
             currentPlayer = 1;
             button3.BackColor = System.Drawing.Color.Green;
@@ -103,45 +105,78 @@ namespace osdjoadjs
         {
             if (currentPlayer == 1)
             {
-                diceNum = rollingDiceClass.diceRoll(pictureBox3);
-
-                p = rollingDiceClass.move(ref x, ref y, p, diceNum, pictureBox8);
-
-                p = rollingDiceClass.ladders(ref x, ref y, p, pictureBox8);
-
-                if (p == 100)
+                if (p == 94 && counter == 0)
                 {
-                    Form2 gamewindow = new Form2();
-                    gamewindow.Show();
-                    btnRoll.Enabled = false;
+                    MessageBox.Show("Skip a turn");
+                    skipturn = true;
+                    counter++;
+                }
+                else
+                {
+                    skipturn = false;
+                }
+                if (skipturn == false)
+                {
+                    diceNum = rollingDiceClass.diceRoll(pictureBox3);
+
+                    p = rollingDiceClass.move(ref x, ref y, p, diceNum, pictureBox8);
+
+                    p = rollingDiceClass.jump(ref x, ref y, p, diceNum, pictureBox8);
+
+                    p = rollingDiceClass.moveback(ref x, ref y, p, pictureBox8);
+
+                    p = rollingDiceClass.ladders(ref x, ref y, p, pictureBox8, ref score, label8);
+
+                    if (p == 100)
+                    {
+                        Form2 gamewindow = new Form2();
+                        gamewindow.Show();
+                        btnRoll.Enabled = false;
+                    }
+
+                    p = rollingDiceClass.snake(ref x, ref y, p, pictureBox8, ref score, label8);
                 }
 
-                p = rollingDiceClass.snake(ref x, ref y, p, pictureBox8);
 
-
-                btnRoll.Enabled = false;
-                button3.Enabled = false;
-                button4.Enabled = true;
-                button3.BackColor = DefaultBackColor;
-                button4.BackColor = System.Drawing.Color.Green;
+                    btnRoll.Enabled = false;
+                    button3.Enabled = false;
+                    button4.Enabled = true;
+                    button3.BackColor = DefaultBackColor;
+                    button4.BackColor = System.Drawing.Color.Green;
             }
             else if (currentPlayer == 2)
             {
-                diceNum = rollingDiceClass.diceRoll(pictureBox3);
-
-                ap = rollingDiceClass.move(ref ax, ref ay, ap, diceNum, pictureBox10);
-
-                ap = rollingDiceClass.ladders(ref ax, ref ay, ap, pictureBox10);
-
-                if (ap == 100)
+                if (ap == 94 && counter == 0)
                 {
-                    Form2 gamewindow = new Form2();
-                    gamewindow.Show();
-                    btnRoll.Enabled = false;
+                    MessageBox.Show("Skip a turn");
+                    skipturn = true;
+                    counter++;
                 }
+                else
+                {
+                    skipturn = false;
+                }
+                if (skipturn == false)
+                {
+                    diceNum = rollingDiceClass.diceRoll(pictureBox3);
 
-                ap = rollingDiceClass.snake(ref ax, ref ay, ap, pictureBox10);
+                    ap = rollingDiceClass.move(ref ax, ref ay, ap, diceNum, pictureBox10);
 
+                    ap = rollingDiceClass.jump(ref ax, ref ay, ap, diceNum, pictureBox10);
+
+                    ap = rollingDiceClass.moveback(ref ax, ref ay, ap, pictureBox10);
+
+                    ap = rollingDiceClass.ladders(ref ax, ref ay, ap, pictureBox10, ref score2, label10);
+
+                    if (ap == 100)
+                    {
+                        Form2 gamewindow = new Form2();
+                        gamewindow.Show();
+                        btnRoll.Enabled = false;
+                    }
+
+                    ap = rollingDiceClass.snake(ref ax, ref ay, ap, pictureBox10, ref score2, label10);
+                }
 
                 btnRoll.Enabled = false;
                 button3.Enabled = true;

@@ -1,6 +1,7 @@
 ﻿using osdjoadjs.Properties;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -47,7 +48,7 @@ namespace osdjoadjs
             return dice;
         }
 
-        public static int move(ref int x, ref int y, int p, int dice,PictureBox px)
+        public static int move(ref int x, ref int y, int p, int dice, PictureBox px)
         {
             if (dice + p > 100)
             {
@@ -122,28 +123,31 @@ namespace osdjoadjs
             return p;
         }
 
-        public static int snake(ref int x, ref int y, int p,PictureBox px )
+        public static int snake(ref int x, ref int y, int p, PictureBox px, ref int score, Label lb)
         {
-            if (p==29)
+            if (p == 29)
             {
                 x = 547;
                 y = 684;
                 p = 9;
                 MessageBox.Show("Went down the snake!");
+                score--;
             }
-            else if (p==38)
+            else if (p == 38)
             {
                 x = 343;
                 y = 612;
                 p = 15;
                 MessageBox.Show("Went down the snake!");
+                score--;
             }
-            else if (p== 47)
+            else if (p == 47)
             {
                 x = 275;
                 y = 684;
                 p = 5;
                 MessageBox.Show("Went down the snake!");
+                score--;
             }
             else if (p == 53)
             {
@@ -151,6 +155,7 @@ namespace osdjoadjs
                 y = 466;
                 p = 33;
                 MessageBox.Show("Went down the snake!");
+                score--;
             }
             else if (p == 62)
             {
@@ -158,6 +163,7 @@ namespace osdjoadjs
                 y = 466;
                 p = 37;
                 MessageBox.Show("Went down the snake!");
+                score--;
             }
             else if (p == 86)
             {
@@ -165,6 +171,7 @@ namespace osdjoadjs
                 y = 322;
                 p = 54;
                 MessageBox.Show("Went down the snake!");
+                score--;
             }
             else if (p == 92)
             {
@@ -172,6 +179,7 @@ namespace osdjoadjs
                 y = 250;
                 p = 70;
                 MessageBox.Show("Went down the snake!");
+                score--;
             }
             else if (p == 97)
             {
@@ -179,14 +187,16 @@ namespace osdjoadjs
                 y = 538;
                 p = 25;
                 MessageBox.Show("Went down the snake!");
+                score--;
             }
 
+            lb.Text = score.ToString();
             px.Location = new Point(x, y);
 
             return p;
         }
 
-        public static int ladders(ref int x, ref int y, int p, PictureBox px)
+        public static int ladders(ref int x, ref int y, int p, PictureBox px, ref int score, Label lb)
         {
             if (p == 2)
             {
@@ -194,7 +204,7 @@ namespace osdjoadjs
                 y = 538;
                 p = 23;
                 MessageBox.Show("Went up the ladder!");
-
+                score++;
             }
             else if (p == 8)
             {
@@ -202,6 +212,7 @@ namespace osdjoadjs
                 y = 466;
                 p = 34;
                 MessageBox.Show("Went up the ladder!");
+                score++;
             }
             else if (p == 20)
             {
@@ -209,6 +220,7 @@ namespace osdjoadjs
                 y = 178;
                 p = 77;
                 MessageBox.Show("Went up the ladder!");
+                score++;
             }
             else if (p == 32)
             {
@@ -216,6 +228,7 @@ namespace osdjoadjs
                 y = 250;
                 p = 68;
                 MessageBox.Show("Went up the ladder!");
+                score++;
             }
             else if (p == 41)
             {
@@ -223,6 +236,7 @@ namespace osdjoadjs
                 y = 178;
                 p = 79;
                 MessageBox.Show("Went up the ladder!");
+                score++;
             }
             else if (p == 74)
             {
@@ -230,6 +244,7 @@ namespace osdjoadjs
                 y = 106;
                 p = 88;
                 MessageBox.Show("Went up the ladder!");
+                score++;
             }
             else if (p == 82)
             {
@@ -237,6 +252,7 @@ namespace osdjoadjs
                 y = 34;
                 p = 100;
                 MessageBox.Show("Went up the ladder!");
+                score++;
             }
             else if (p == 85)
             {
@@ -244,14 +260,79 @@ namespace osdjoadjs
                 y = 34;
                 p = 95;
                 MessageBox.Show("Went up the ladder!");
+                score++;
+            }
+
+            lb.Text = score.ToString();
+            px.Location = new Point(x, y);
+
+            return p;
+        }
+
+        public static int jump(ref int x, ref int y, int p, int dice, PictureBox px)
+        {
+            if (p == 35)
+            {
+                if (dice == 1)
+                {
+                    x = 343;
+                    y = 394;
+                    p = 46;
+                    MessageBox.Show("Jumped Up 1");
+                }
+                else if (dice == 2)
+                {
+                    x = 343;
+                    y = 322;
+                    p = 55;
+                    MessageBox.Show("Jumped Up 2");
+                }
+                else if (dice == 3)
+                {
+                    x = 343;
+                    y = 255;
+                    p = 66;
+                    MessageBox.Show("Jumped Up 3");
+                }
+                else if (dice == 4)
+                {
+                    x = 343;
+                    y = 178;
+                    p = 75;
+                    MessageBox.Show("Jumped Up 4");
+                }
+                else if (dice == 5)
+                {
+                    x = 343;
+                    y = 106;
+                    p = 86;
+                    MessageBox.Show("Jumped Up 5");
+                }
+                else if (dice == 6)
+                {
+                    x = 343;
+                    y = 34;
+                    p = 95;
+                    MessageBox.Show("Jumped Up 6");
+                }
             }
 
             px.Location = new Point(x, y);
 
             return p;
         }
+        public static int moveback(ref int x, ref int y, int p, PictureBox px)
+        {
+            if (p == 44)
+            {
+                x = 139;
+                y = 394;
+                p = 43;
+                MessageBox.Show("Moved back a step!");
+            }
+            px.Location = new Point(x, y);
 
-
-
+            return p;
+        }
     }
 }
