@@ -81,16 +81,18 @@
             // 
             this.Playername1.BackColor = System.Drawing.Color.Transparent;
             this.Playername1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Playername1.Location = new System.Drawing.Point(871, 27);
+            this.Playername1.ForeColor = System.Drawing.SystemColors.Window;
+            this.Playername1.Location = new System.Drawing.Point(875, 9);
             this.Playername1.Name = "Playername1";
             this.Playername1.Size = new System.Drawing.Size(107, 28);
             this.Playername1.TabIndex = 2;
             this.Playername1.Text = "PlayerTwo";
+            this.Playername1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::osdjoadjs.Properties.Resources.doctor_clipart_3_SAL;
-            this.pictureBox2.Location = new System.Drawing.Point(891, 58);
+            this.pictureBox2.Location = new System.Drawing.Point(893, 40);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 100);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -100,7 +102,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::osdjoadjs.Properties.Resources.Character_4;
-            this.pictureBox1.Location = new System.Drawing.Point(742, 58);
+            this.pictureBox1.Location = new System.Drawing.Point(742, 40);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(75, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -167,22 +169,26 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(725, 27);
+            this.label2.ForeColor = System.Drawing.SystemColors.Window;
+            this.label2.Location = new System.Drawing.Point(724, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 28);
             this.label2.TabIndex = 2;
             this.label2.Text = "PlayerOne";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // lbLeaderBoard
             // 
             this.lbLeaderBoard.BackColor = System.Drawing.Color.Transparent;
             this.lbLeaderBoard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLeaderBoard.Location = new System.Drawing.Point(785, 161);
+            this.lbLeaderBoard.ForeColor = System.Drawing.SystemColors.Window;
+            this.lbLeaderBoard.Location = new System.Drawing.Point(786, 161);
             this.lbLeaderBoard.Name = "lbLeaderBoard";
             this.lbLeaderBoard.Size = new System.Drawing.Size(141, 23);
             this.lbLeaderBoard.TabIndex = 11;
             this.lbLeaderBoard.Text = "Leaderboard";
+            this.lbLeaderBoard.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lbLeaderBoard.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // pictureBox4
@@ -231,6 +237,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Window;
             this.label3.Location = new System.Drawing.Point(703, 686);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 65);
@@ -240,6 +247,7 @@
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.SystemColors.Window;
             this.label4.Location = new System.Drawing.Point(777, 686);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 65);
@@ -249,6 +257,7 @@
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.SystemColors.Window;
             this.label5.Location = new System.Drawing.Point(850, 687);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 65);
@@ -258,6 +267,7 @@
             // label6
             // 
             this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.ForeColor = System.Drawing.SystemColors.Window;
             this.label6.Location = new System.Drawing.Point(925, 686);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 65);

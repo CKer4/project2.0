@@ -49,7 +49,7 @@
             this.Welcomelabel.AutoSize = true;
             this.Welcomelabel.BackColor = System.Drawing.Color.Transparent;
             this.Welcomelabel.Font = new System.Drawing.Font("Viner Hand ITC", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Welcomelabel.ForeColor = System.Drawing.Color.Black;
+            this.Welcomelabel.ForeColor = System.Drawing.Color.Transparent;
             this.Welcomelabel.Location = new System.Drawing.Point(448, -6);
             this.Welcomelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Welcomelabel.Name = "Welcomelabel";
@@ -59,16 +59,15 @@
             // 
             // Gamenamelabel
             // 
-            this.Gamenamelabel.AutoSize = true;
             this.Gamenamelabel.BackColor = System.Drawing.Color.Transparent;
             this.Gamenamelabel.Font = new System.Drawing.Font("Viner Hand ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gamenamelabel.ForeColor = System.Drawing.Color.Black;
-            this.Gamenamelabel.Location = new System.Drawing.Point(446, 43);
+            this.Gamenamelabel.ForeColor = System.Drawing.Color.Transparent;
+            this.Gamenamelabel.Location = new System.Drawing.Point(420, 43);
             this.Gamenamelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Gamenamelabel.Name = "Gamenamelabel";
-            this.Gamenamelabel.Size = new System.Drawing.Size(267, 78);
+            this.Gamenamelabel.Size = new System.Drawing.Size(308, 79);
             this.Gamenamelabel.TabIndex = 1;
-            this.Gamenamelabel.Text = "Super Sal";
+            this.Gamenamelabel.Text = "Super SAL";
             this.Gamenamelabel.UseMnemonic = false;
             // 
             // Ruleslabel
@@ -76,11 +75,11 @@
             this.Ruleslabel.AutoSize = true;
             this.Ruleslabel.BackColor = System.Drawing.Color.Transparent;
             this.Ruleslabel.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ruleslabel.ForeColor = System.Drawing.Color.Black;
-            this.Ruleslabel.Location = new System.Drawing.Point(57, 122);
+            this.Ruleslabel.ForeColor = System.Drawing.Color.Transparent;
+            this.Ruleslabel.Location = new System.Drawing.Point(11, 97);
             this.Ruleslabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Ruleslabel.Name = "Ruleslabel";
-            this.Ruleslabel.Size = new System.Drawing.Size(697, 400);
+            this.Ruleslabel.Size = new System.Drawing.Size(697, 425);
             this.Ruleslabel.TabIndex = 2;
             this.Ruleslabel.Text = resources.GetString("Ruleslabel.Text");
             // 
@@ -89,6 +88,7 @@
             this.Namelabel.AutoSize = true;
             this.Namelabel.BackColor = System.Drawing.Color.Transparent;
             this.Namelabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Namelabel.ForeColor = System.Drawing.SystemColors.Window;
             this.Namelabel.Location = new System.Drawing.Point(760, 136);
             this.Namelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Namelabel.Name = "Namelabel";
@@ -151,21 +151,23 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(851, 171);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 27);
+            this.label1.Size = new System.Drawing.Size(93, 27);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Player 1:";
+            this.label1.Text = "Player One:";
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Window;
             this.label2.Location = new System.Drawing.Point(850, 302);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 27);
+            this.label2.Size = new System.Drawing.Size(94, 27);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Player 2:";
+            this.label2.Text = "Player Two:";
             // 
             // WelcomeScreen
             // 
