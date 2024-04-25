@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.label1 = new System.Windows.Forms.Label();
             this.Playername1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -79,7 +80,7 @@
             // Playername1
             // 
             this.Playername1.BackColor = System.Drawing.Color.Transparent;
-            this.Playername1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Playername1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Playername1.Location = new System.Drawing.Point(871, 27);
             this.Playername1.Name = "Playername1";
             this.Playername1.Size = new System.Drawing.Size(107, 28);
@@ -108,7 +109,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::osdjoadjs.Properties.Resources.Roll_the_dice1;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(790, 276);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(122, 144);
@@ -118,7 +119,7 @@
             // 
             // btnRoll
             // 
-            this.btnRoll.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRoll.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRoll.Location = new System.Drawing.Point(790, 426);
             this.btnRoll.Name = "btnRoll";
             this.btnRoll.Size = new System.Drawing.Size(122, 42);
@@ -131,9 +132,9 @@
             // 
             this.btnFixedShield.BackColor = System.Drawing.Color.Transparent;
             this.btnFixedShield.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFixedShield.Location = new System.Drawing.Point(790, 483);
+            this.btnFixedShield.Location = new System.Drawing.Point(802, 474);
             this.btnFixedShield.Name = "btnFixedShield";
-            this.btnFixedShield.Size = new System.Drawing.Size(104, 43);
+            this.btnFixedShield.Size = new System.Drawing.Size(94, 43);
             this.btnFixedShield.TabIndex = 9;
             this.btnFixedShield.Text = "Shield";
             this.btnFixedShield.UseVisualStyleBackColor = false;
@@ -142,7 +143,7 @@
             // 
             this.Restartbtn.BackColor = System.Drawing.Color.Transparent;
             this.Restartbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Restartbtn.Location = new System.Drawing.Point(849, 532);
+            this.Restartbtn.Location = new System.Drawing.Point(853, 532);
             this.Restartbtn.Name = "Restartbtn";
             this.Restartbtn.Size = new System.Drawing.Size(104, 43);
             this.Restartbtn.TabIndex = 9;
@@ -153,8 +154,8 @@
             // Exitbtn
             // 
             this.Exitbtn.BackColor = System.Drawing.Color.Transparent;
-            this.Exitbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.Exitbtn.Location = new System.Drawing.Point(729, 532);
+            this.Exitbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Exitbtn.Location = new System.Drawing.Point(741, 532);
             this.Exitbtn.Name = "Exitbtn";
             this.Exitbtn.Size = new System.Drawing.Size(104, 43);
             this.Exitbtn.TabIndex = 9;
@@ -165,7 +166,7 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(725, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 28);
@@ -176,8 +177,8 @@
             // lbLeaderBoard
             // 
             this.lbLeaderBoard.BackColor = System.Drawing.Color.Transparent;
-            this.lbLeaderBoard.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLeaderBoard.Location = new System.Drawing.Point(785, 170);
+            this.lbLeaderBoard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbLeaderBoard.Location = new System.Drawing.Point(785, 161);
             this.lbLeaderBoard.Name = "lbLeaderBoard";
             this.lbLeaderBoard.Size = new System.Drawing.Size(141, 23);
             this.lbLeaderBoard.TabIndex = 11;
@@ -217,6 +218,7 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox7.Image = global::osdjoadjs.Properties.Resources.Skip_a_turn;
             this.pictureBox7.Location = new System.Drawing.Point(924, 630);
             this.pictureBox7.Name = "pictureBox7";
@@ -297,9 +299,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(709, 276);
+            this.button3.Location = new System.Drawing.Point(740, 234);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(77, 36);
             this.button3.TabIndex = 20;
             this.button3.Text = "Player 1";
             this.button3.UseVisualStyleBackColor = true;
@@ -307,9 +309,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(918, 276);
+            this.button4.Location = new System.Drawing.Point(878, 234);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(75, 36);
             this.button4.TabIndex = 21;
             this.button4.Text = "Player 2";
             this.button4.UseVisualStyleBackColor = true;
@@ -317,37 +319,37 @@
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(777, 212);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(724, 184);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 13);
+            this.label7.Size = new System.Drawing.Size(93, 22);
             this.label7.TabIndex = 22;
             this.label7.Text = "Player 1 Score";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(859, 212);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(764, 206);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(13, 13);
+            this.label8.Size = new System.Drawing.Size(22, 25);
             this.label8.TabIndex = 22;
             this.label8.Text = "0";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(777, 230);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(890, 184);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(76, 13);
+            this.label9.Size = new System.Drawing.Size(93, 22);
             this.label9.TabIndex = 22;
             this.label9.Text = "Player 2 Score";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(859, 230);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(921, 206);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(13, 13);
+            this.label10.Size = new System.Drawing.Size(22, 25);
             this.label10.TabIndex = 22;
             this.label10.Text = "0";
             // 
@@ -355,8 +357,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BackgroundImage = global::osdjoadjs.Properties.Resources.wp9142232_snake_and_ladder_wallpapers;
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1006, 744);
             this.Controls.Add(this.label10);
