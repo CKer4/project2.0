@@ -50,10 +50,9 @@
             this.Welcomelabel.BackColor = System.Drawing.Color.Transparent;
             this.Welcomelabel.Font = new System.Drawing.Font("Viner Hand ITC", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Welcomelabel.ForeColor = System.Drawing.Color.Transparent;
-            this.Welcomelabel.Location = new System.Drawing.Point(448, -6);
-            this.Welcomelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Welcomelabel.Location = new System.Drawing.Point(597, -7);
             this.Welcomelabel.Name = "Welcomelabel";
-            this.Welcomelabel.Size = new System.Drawing.Size(251, 61);
+            this.Welcomelabel.Size = new System.Drawing.Size(306, 76);
             this.Welcomelabel.TabIndex = 0;
             this.Welcomelabel.Text = "Welcome  To";
             // 
@@ -62,10 +61,9 @@
             this.Gamenamelabel.BackColor = System.Drawing.Color.Transparent;
             this.Gamenamelabel.Font = new System.Drawing.Font("Viner Hand ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Gamenamelabel.ForeColor = System.Drawing.Color.Transparent;
-            this.Gamenamelabel.Location = new System.Drawing.Point(420, 43);
-            this.Gamenamelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Gamenamelabel.Location = new System.Drawing.Point(560, 53);
             this.Gamenamelabel.Name = "Gamenamelabel";
-            this.Gamenamelabel.Size = new System.Drawing.Size(308, 79);
+            this.Gamenamelabel.Size = new System.Drawing.Size(411, 97);
             this.Gamenamelabel.TabIndex = 1;
             this.Gamenamelabel.Text = "Super SAL";
             this.Gamenamelabel.UseMnemonic = false;
@@ -76,10 +74,9 @@
             this.Ruleslabel.BackColor = System.Drawing.Color.Transparent;
             this.Ruleslabel.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ruleslabel.ForeColor = System.Drawing.Color.Transparent;
-            this.Ruleslabel.Location = new System.Drawing.Point(11, 97);
-            this.Ruleslabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Ruleslabel.Location = new System.Drawing.Point(15, 119);
             this.Ruleslabel.Name = "Ruleslabel";
-            this.Ruleslabel.Size = new System.Drawing.Size(697, 425);
+            this.Ruleslabel.Size = new System.Drawing.Size(842, 527);
             this.Ruleslabel.TabIndex = 2;
             this.Ruleslabel.Text = resources.GetString("Ruleslabel.Text");
             // 
@@ -89,30 +86,30 @@
             this.Namelabel.BackColor = System.Drawing.Color.Transparent;
             this.Namelabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Namelabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.Namelabel.Location = new System.Drawing.Point(760, 136);
-            this.Namelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Namelabel.Location = new System.Drawing.Point(1013, 167);
             this.Namelabel.Name = "Namelabel";
-            this.Namelabel.Size = new System.Drawing.Size(200, 21);
+            this.Namelabel.Size = new System.Drawing.Size(249, 28);
             this.Namelabel.TabIndex = 3;
             this.Namelabel.Text = "Please enter your names:";
             // 
             // Nametxtbox1
             // 
-            this.Nametxtbox1.Location = new System.Drawing.Point(854, 200);
-            this.Nametxtbox1.Margin = new System.Windows.Forms.Padding(2);
+            this.Nametxtbox1.Location = new System.Drawing.Point(1139, 246);
+            this.Nametxtbox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Nametxtbox1.Multiline = true;
             this.Nametxtbox1.Name = "Nametxtbox1";
-            this.Nametxtbox1.Size = new System.Drawing.Size(116, 27);
+            this.Nametxtbox1.Size = new System.Drawing.Size(153, 32);
             this.Nametxtbox1.TabIndex = 5;
+            this.Nametxtbox1.TextChanged += new System.EventHandler(this.Nametxtbox1_TextChanged);
             // 
             // Btnstart
             // 
             this.Btnstart.BackColor = System.Drawing.Color.Transparent;
             this.Btnstart.Font = new System.Drawing.Font("Californian FB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnstart.Location = new System.Drawing.Point(854, 479);
-            this.Btnstart.Margin = new System.Windows.Forms.Padding(2);
+            this.Btnstart.Location = new System.Drawing.Point(1139, 590);
+            this.Btnstart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btnstart.Name = "Btnstart";
-            this.Btnstart.Size = new System.Drawing.Size(116, 43);
+            this.Btnstart.Size = new System.Drawing.Size(155, 53);
             this.Btnstart.TabIndex = 11;
             this.Btnstart.Text = "START";
             this.Btnstart.UseVisualStyleBackColor = false;
@@ -121,9 +118,10 @@
             // Characterpic1
             // 
             this.Characterpic1.Image = global::osdjoadjs.Properties.Resources.Character_4;
-            this.Characterpic1.Location = new System.Drawing.Point(764, 171);
+            this.Characterpic1.Location = new System.Drawing.Point(1019, 210);
+            this.Characterpic1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Characterpic1.Name = "Characterpic1";
-            this.Characterpic1.Size = new System.Drawing.Size(75, 100);
+            this.Characterpic1.Size = new System.Drawing.Size(100, 123);
             this.Characterpic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Characterpic1.TabIndex = 12;
             this.Characterpic1.TabStop = false;
@@ -131,20 +129,21 @@
             // Characterpic2
             // 
             this.Characterpic2.Image = global::osdjoadjs.Properties.Resources.doctor_clipart_3_SAL;
-            this.Characterpic2.Location = new System.Drawing.Point(764, 302);
+            this.Characterpic2.Location = new System.Drawing.Point(1019, 372);
+            this.Characterpic2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Characterpic2.Name = "Characterpic2";
-            this.Characterpic2.Size = new System.Drawing.Size(75, 100);
+            this.Characterpic2.Size = new System.Drawing.Size(100, 123);
             this.Characterpic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Characterpic2.TabIndex = 13;
             this.Characterpic2.TabStop = false;
             // 
             // Nametxtbox2
             // 
-            this.Nametxtbox2.Location = new System.Drawing.Point(855, 331);
-            this.Nametxtbox2.Margin = new System.Windows.Forms.Padding(2);
+            this.Nametxtbox2.Location = new System.Drawing.Point(1140, 407);
+            this.Nametxtbox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Nametxtbox2.Multiline = true;
             this.Nametxtbox2.Name = "Nametxtbox2";
-            this.Nametxtbox2.Size = new System.Drawing.Size(115, 27);
+            this.Nametxtbox2.Size = new System.Drawing.Size(152, 32);
             this.Nametxtbox2.TabIndex = 14;
             // 
             // label1
@@ -152,9 +151,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(851, 171);
+            this.label1.Location = new System.Drawing.Point(1135, 210);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 27);
+            this.label1.Size = new System.Drawing.Size(124, 33);
             this.label1.TabIndex = 15;
             this.label1.Text = "Player One:";
             // 
@@ -163,19 +163,20 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Window;
-            this.label2.Location = new System.Drawing.Point(850, 302);
+            this.label2.Location = new System.Drawing.Point(1133, 372);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 27);
+            this.label2.Size = new System.Drawing.Size(125, 33);
             this.label2.TabIndex = 16;
             this.label2.Text = "Player Two:";
             // 
             // WelcomeScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1054, 557);
+            this.ClientSize = new System.Drawing.Size(1405, 686);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Nametxtbox2);
@@ -187,6 +188,7 @@
             this.Controls.Add(this.Ruleslabel);
             this.Controls.Add(this.Gamenamelabel);
             this.Controls.Add(this.Welcomelabel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "WelcomeScreen";
             this.Text = "welcomepage";
             ((System.ComponentModel.ISupportInitialize)(this.Characterpic1)).EndInit();

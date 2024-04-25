@@ -31,6 +31,10 @@ namespace osdjoadjs
             {
                 MessageBox.Show("Both player names must be entered to start the game.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            else if (!IsValidName(userName1) || !IsValidName(userName2))
+            {
+                MessageBox.Show("Names must only contain letters.", "Invalid Characters", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             else
             {
                 Form3 gamewindow = new Form3();
@@ -38,6 +42,11 @@ namespace osdjoadjs
                 gamewindow.SetPlayerNames(userName1, userName2);
 
             }
+        }
+        private bool IsValidName(string name)
+        {
+            // Return true if the name contains only letters and numbers
+            return name.All(char.IsLetter);
         }
 
         public void SetPlayerNames(string player1Name, string player2Name) 
@@ -98,6 +107,9 @@ namespace osdjoadjs
             return null;
         }
 
-       
+        private void Nametxtbox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
