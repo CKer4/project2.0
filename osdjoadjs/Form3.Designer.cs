@@ -111,8 +111,9 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(790, 276);
+            this.pictureBox3.Location = new System.Drawing.Point(790, 285);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(122, 144);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,7 +123,7 @@
             // btnRoll
             // 
             this.btnRoll.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRoll.Location = new System.Drawing.Point(790, 426);
+            this.btnRoll.Location = new System.Drawing.Point(790, 444);
             this.btnRoll.Name = "btnRoll";
             this.btnRoll.Size = new System.Drawing.Size(122, 42);
             this.btnRoll.TabIndex = 8;
@@ -134,7 +135,7 @@
             // 
             this.btnFixedShield.BackColor = System.Drawing.Color.Transparent;
             this.btnFixedShield.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFixedShield.Location = new System.Drawing.Point(802, 474);
+            this.btnFixedShield.Location = new System.Drawing.Point(801, 492);
             this.btnFixedShield.Name = "btnFixedShield";
             this.btnFixedShield.Size = new System.Drawing.Size(94, 43);
             this.btnFixedShield.TabIndex = 9;
@@ -145,7 +146,7 @@
             // 
             this.Restartbtn.BackColor = System.Drawing.Color.Transparent;
             this.Restartbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Restartbtn.Location = new System.Drawing.Point(853, 532);
+            this.Restartbtn.Location = new System.Drawing.Point(853, 541);
             this.Restartbtn.Name = "Restartbtn";
             this.Restartbtn.Size = new System.Drawing.Size(104, 43);
             this.Restartbtn.TabIndex = 9;
@@ -157,7 +158,7 @@
             // 
             this.Exitbtn.BackColor = System.Drawing.Color.Transparent;
             this.Exitbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exitbtn.Location = new System.Drawing.Point(741, 532);
+            this.Exitbtn.Location = new System.Drawing.Point(741, 541);
             this.Exitbtn.Name = "Exitbtn";
             this.Exitbtn.Size = new System.Drawing.Size(104, 43);
             this.Exitbtn.TabIndex = 9;
@@ -183,7 +184,7 @@
             this.lbLeaderBoard.BackColor = System.Drawing.Color.Transparent;
             this.lbLeaderBoard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbLeaderBoard.ForeColor = System.Drawing.SystemColors.Window;
-            this.lbLeaderBoard.Location = new System.Drawing.Point(786, 161);
+            this.lbLeaderBoard.Location = new System.Drawing.Point(786, 154);
             this.lbLeaderBoard.Name = "lbLeaderBoard";
             this.lbLeaderBoard.Size = new System.Drawing.Size(141, 23);
             this.lbLeaderBoard.TabIndex = 11;
@@ -319,7 +320,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(878, 234);
+            this.button4.Location = new System.Drawing.Point(893, 234);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 36);
             this.button4.TabIndex = 21;
@@ -347,6 +348,7 @@
             // 
             // label9
             // 
+            this.label9.BackColor = System.Drawing.SystemColors.Window;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(890, 184);
             this.label9.Name = "label9";

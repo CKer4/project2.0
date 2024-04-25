@@ -33,14 +33,16 @@
             // 
             // Congratslabel
             // 
-            this.Congratslabel.BackColor = System.Drawing.Color.Transparent;
-            this.Congratslabel.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Congratslabel.ForeColor = System.Drawing.Color.Black;
-            this.Congratslabel.Location = new System.Drawing.Point(204, 228);
+            this.Congratslabel.BackColor = System.Drawing.Color.YellowGreen;
+            this.Congratslabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Congratslabel.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Congratslabel.ForeColor = System.Drawing.Color.DarkGreen;
+            this.Congratslabel.Location = new System.Drawing.Point(217, 286);
             this.Congratslabel.Name = "Congratslabel";
-            this.Congratslabel.Size = new System.Drawing.Size(652, 84);
+            this.Congratslabel.Size = new System.Drawing.Size(623, 77);
             this.Congratslabel.TabIndex = 0;
             this.Congratslabel.Text = "CONGRATULATIONS";
+            this.Congratslabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Form2
             // 
