@@ -15,7 +15,7 @@ namespace osdjoadjs
     public partial class Form3 : Form
     {
         int currentPlayer = 1;
-        int x = 3, y = 684, diceNum, p = 0, score, score2, counter;
+        int x = 3, y = 684, diceNum, p = 0, counter;
         int ax = 3, ay = 684, ap = 0;
         bool skipturn = false;
 
@@ -125,7 +125,7 @@ namespace osdjoadjs
 
                     p = rollingDiceClass.moveback(ref x, ref y, p, pictureBox8);
 
-                    p = rollingDiceClass.ladders(ref x, ref y, p, pictureBox8, ref score, label8);
+                    p = rollingDiceClass.ladders(ref x, ref y, p, pictureBox8);
 
                     if (p == 100)
                     {
@@ -134,10 +134,10 @@ namespace osdjoadjs
                         btnRoll.Enabled = false;
                     }
 
-                    p = rollingDiceClass.snake(ref x, ref y, p, pictureBox8, ref score, label8);
+                    p = rollingDiceClass.snake(ref x, ref y, p, pictureBox8);
                 }
 
-
+                    label8.Text = p.ToString();
                     btnRoll.Enabled = false;
                     button3.Enabled = false;
                     button4.Enabled = true;
@@ -166,7 +166,7 @@ namespace osdjoadjs
 
                     ap = rollingDiceClass.moveback(ref ax, ref ay, ap, pictureBox10);
 
-                    ap = rollingDiceClass.ladders(ref ax, ref ay, ap, pictureBox10, ref score2, label10);
+                    ap = rollingDiceClass.ladders(ref ax, ref ay, ap, pictureBox10);
 
                     if (ap == 100)
                     {
@@ -175,9 +175,9 @@ namespace osdjoadjs
                         btnRoll.Enabled = false;
                     }
 
-                    ap = rollingDiceClass.snake(ref ax, ref ay, ap, pictureBox10, ref score2, label10);
+                    ap = rollingDiceClass.snake(ref ax, ref ay, ap, pictureBox10);
                 }
-
+                label10.Text = ap.ToString();
                 btnRoll.Enabled = false;
                 button3.Enabled = true;
                 button4.Enabled = false;

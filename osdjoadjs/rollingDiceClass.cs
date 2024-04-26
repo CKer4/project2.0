@@ -120,10 +120,11 @@ namespace osdjoadjs
 
                 }
             }
+   
             return p;
         }
 
-        public static int snake(ref int x, ref int y, int p, PictureBox px, ref int score, Label lb)
+        public static int snake(ref int x, ref int y, int p, PictureBox px)
         {
             if (p == 29)
             {
@@ -131,7 +132,6 @@ namespace osdjoadjs
                 y = 684;
                 p = 9;
                 MessageBox.Show("Went down the snake!");
-                score--;
             }
             else if (p == 38)
             {
@@ -139,7 +139,6 @@ namespace osdjoadjs
                 y = 612;
                 p = 15;
                 MessageBox.Show("Went down the snake!");
-                score--;
             }
             else if (p == 47)
             {
@@ -147,7 +146,6 @@ namespace osdjoadjs
                 y = 684;
                 p = 5;
                 MessageBox.Show("Went down the snake!");
-                score--;
             }
             else if (p == 53)
             {
@@ -155,7 +153,6 @@ namespace osdjoadjs
                 y = 466;
                 p = 33;
                 MessageBox.Show("Went down the snake!");
-                score--;
             }
             else if (p == 62)
             {
@@ -163,7 +160,6 @@ namespace osdjoadjs
                 y = 466;
                 p = 37;
                 MessageBox.Show("Went down the snake!");
-                score--;
             }
             else if (p == 86)
             {
@@ -171,7 +167,6 @@ namespace osdjoadjs
                 y = 322;
                 p = 54;
                 MessageBox.Show("Went down the snake!");
-                score--;
             }
             else if (p == 92)
             {
@@ -179,7 +174,6 @@ namespace osdjoadjs
                 y = 250;
                 p = 70;
                 MessageBox.Show("Went down the snake!");
-                score--;
             }
             else if (p == 97)
             {
@@ -187,16 +181,14 @@ namespace osdjoadjs
                 y = 538;
                 p = 25;
                 MessageBox.Show("Went down the snake!");
-                score--;
             }
 
-            lb.Text = score.ToString();
             px.Location = new Point(x, y);
 
             return p;
         }
 
-        public static int ladders(ref int x, ref int y, int p, PictureBox px, ref int score, Label lb)
+        public static int ladders(ref int x, ref int y, int p, PictureBox px)
         {
             if (p == 2)
             {
@@ -204,7 +196,6 @@ namespace osdjoadjs
                 y = 538;
                 p = 23;
                 MessageBox.Show("Went up the ladder!");
-                score++;
             }
             else if (p == 8)
             {
@@ -212,7 +203,6 @@ namespace osdjoadjs
                 y = 466;
                 p = 34;
                 MessageBox.Show("Went up the ladder!");
-                score++;
             }
             else if (p == 20)
             {
@@ -220,7 +210,6 @@ namespace osdjoadjs
                 y = 178;
                 p = 77;
                 MessageBox.Show("Went up the ladder!");
-                score++;
             }
             else if (p == 32)
             {
@@ -228,7 +217,6 @@ namespace osdjoadjs
                 y = 250;
                 p = 68;
                 MessageBox.Show("Went up the ladder!");
-                score++;
             }
             else if (p == 41)
             {
@@ -236,7 +224,6 @@ namespace osdjoadjs
                 y = 178;
                 p = 79;
                 MessageBox.Show("Went up the ladder!");
-                score++;
             }
             else if (p == 74)
             {
@@ -244,7 +231,6 @@ namespace osdjoadjs
                 y = 106;
                 p = 88;
                 MessageBox.Show("Went up the ladder!");
-                score++;
             }
             else if (p == 82)
             {
@@ -252,7 +238,6 @@ namespace osdjoadjs
                 y = 34;
                 p = 100;
                 MessageBox.Show("Went up the ladder!");
-                score++;
             }
             else if (p == 85)
             {
@@ -260,10 +245,8 @@ namespace osdjoadjs
                 y = 34;
                 p = 95;
                 MessageBox.Show("Went up the ladder!");
-                score++;
             }
 
-            lb.Text = score.ToString();
             px.Location = new Point(x, y);
 
             return p;
