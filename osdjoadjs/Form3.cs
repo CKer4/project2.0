@@ -36,10 +36,7 @@ namespace osdjoadjs
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void Exitbtn_Click(object sender, EventArgs e)
         {
@@ -64,6 +61,9 @@ namespace osdjoadjs
             diceNum = 0;
             counter = 0;
 
+            label8.Text = "0";
+            label10.Text = "0";
+
             currentPlayer = 1;
             button3.BackColor = System.Drawing.Color.Green;
             button4.BackColor = DefaultBackColor;
@@ -72,28 +72,13 @@ namespace osdjoadjs
             button4.Enabled = false;
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click_1(object sender, EventArgs e)
-        {
-
-        }
         private void Form3_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Please click on Player 1 button when moving to the board page to engage your role");
             button3.BackColor = System.Drawing.Color.Green;
             btnRoll.Enabled = false;
             button3.Enabled = true;
             button4.Enabled = false;
-            pictureBox8.Visible = false;
-            pictureBox10.Visible = false;
             pictureBox8.Visible = true;
             pictureBox8.Location = new Point(x, y);
             p++;
@@ -103,6 +88,8 @@ namespace osdjoadjs
         }
         private void btnRoll_Click(object sender, EventArgs e)
         {
+            //This is code for player 1
+            // This is for skipping a turn.
             if (currentPlayer == 1)
             {
                 if (p == 94 && counter == 0)
@@ -115,6 +102,7 @@ namespace osdjoadjs
                 {
                     skipturn = false;
                 }
+                // The methods from rollingDiceClass.cs are called here
                 if (skipturn == false)
                 {
                     diceNum = rollingDiceClass.diceRoll(pictureBox3);
@@ -137,15 +125,17 @@ namespace osdjoadjs
                     p = rollingDiceClass.snake(ref x, ref y, p, pictureBox8);
                 }
 
-                    label8.Text = p.ToString();
-                    btnRoll.Enabled = false;
-                    button3.Enabled = false;
-                    button4.Enabled = true;
-                    button3.BackColor = DefaultBackColor;
-                    button4.BackColor = System.Drawing.Color.Green;
+                label8.Text = p.ToString();
+                btnRoll.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = true;
+                button3.BackColor = DefaultBackColor;
+                button4.BackColor = System.Drawing.Color.Green;
             }
             else if (currentPlayer == 2)
             {
+                //This is code for player 2
+                // This is for skipping a turn.
                 if (ap == 94 && counter == 0)
                 {
                     MessageBox.Show("Skip a turn");
@@ -156,6 +146,7 @@ namespace osdjoadjs
                 {
                     skipturn = false;
                 }
+                // The methods from rollingDiceClass.cs are called here
                 if (skipturn == false)
                 {
                     diceNum = rollingDiceClass.diceRoll(pictureBox3);
@@ -194,3 +185,5 @@ namespace osdjoadjs
         }
     }
 }
+
+

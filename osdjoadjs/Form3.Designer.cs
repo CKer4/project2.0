@@ -177,7 +177,6 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "PlayerOne";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // lbLeaderBoard
             // 
@@ -190,7 +189,6 @@
             this.lbLeaderBoard.TabIndex = 11;
             this.lbLeaderBoard.Text = "Leaderboard";
             this.lbLeaderBoard.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lbLeaderBoard.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // pictureBox4
             // 
